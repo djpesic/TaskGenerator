@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rule xmlns:ns2="common">
+    <template>
+        <fileName>src/xml/templates/emptyFor.xml</fileName>
+        <inComplexity>
+            <ns2:func>n</ns2:func>
+        </inComplexity>
+    </template>
+    <template>
+        <ruleName>src/xml/rules/rule1.xml</ruleName>
+    </template>
+    <operation>
+        <nesting>true</nesting>
+    </operation>
+</rule>

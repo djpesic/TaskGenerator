@@ -1,0 +1,10 @@
+COMMA=4
+IDENT=6
+LPAREN=2
+WHILE=5
+RPAREN=3
+WS=1
+','=4
+'while'=5
+')'=3
+'('=2

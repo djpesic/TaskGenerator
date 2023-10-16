@@ -1,0 +1,22 @@
+@startuml
+abstract class abstractions.ConditionalLoop
+abstract class abstractions.Loop
+abstract class abstractions.LoopComposite
+abstract class abstractions.SimpleLoop
+class abstractions.ForLoop
+class abstractions.LoopNested
+class abstractions.LoopSequence
+class abstractions.RepeatLoop
+class abstractions.WhileLoop
+abstractions.ConditionalLoop --|> abstractions.SimpleLoop
+abstractions.LoopComposite --|> abstractions.Loop
+abstractions.SimpleLoop --|> abstractions.Loop
+abstractions.ForLoop --|> abstractions.SimpleLoop
+abstractions.LoopNested --|> abstractions.LoopComposite
+abstractions.LoopSequence --|> abstractions.LoopComposite
+abstractions.LoopSequence --> abstractions.Loop:sequence\n 1..*
+abstractions.LoopNested --> abstractions.Loop:main
+abstractions.LoopNested --> abstractions.Loop:nested
+abstractions.RepeatLoop --|> abstractions.ConditionalLoop
+abstractions.WhileLoop --|> abstractions.ConditionalLoop
+@enduml

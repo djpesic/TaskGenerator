@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rule xmlns:ns2="common">
+    <template>
+        <fileName>src/xml/templates/t3.xml</fileName>
+        <inComplexity>
+            <ns2:func>1</ns2:func>
+        </inComplexity>
+    </template>
+    <template>
+        <fileName>src/xml/templates/t1.xml</fileName>
+        <inComplexity>
+            <ns2:func>n</ns2:func>
+        </inComplexity>
+    </template>
+    <operation>
+        <nesting>true</nesting>
+        <connection inPort="a" outPort="a"/>
+        <connection inPort="b" outPort="b"/>
+    </operation>
+</rule>

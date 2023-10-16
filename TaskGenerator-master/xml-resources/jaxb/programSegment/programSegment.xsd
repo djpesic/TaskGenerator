@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:cmn="common"
+           elementFormDefault="qualified">
+    
+    <xs:import schemaLocation="../common/common.xsd" namespace="common"></xs:import>
+    <!--definition of input port type-->
+    <xs:complexType  name="inPortType">
+        <xs:sequence>
+            <!--lower bound of loop, any previously defined variable which have influence on loop complexity-->
+            <xs:element name="lower" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="name" type="xs:string"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <!--upper bound of loop-->
+            <xs:element name="upper" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="name" type="xs:string"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            
+            <xs:element name="port" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:attribute name="name" type="xs:string" use="required"></xs:attribute>
+                    <xs:attribute name="inherited" type="xs:boolean" default="false"></xs:attribute>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="signedFactorType">
+        <xs:sequence>
+            <xs:element name="sign" type="xs:string" minOccurs = "0"></xs:element>
+            <xs:element name="factor" type="factorType"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!--definition of factor type according to pascal grammar-->
+    <xs:complexType name="factorType">
+        <xs:choice>
+            <xs:element name = "notFactor" type="factorType"></xs:element>
+            <xs:element name="constant" type="xs:string"></xs:element> <!--some numeric or symbolic constant-->
+            <xs:element name="var">
+                <xs:complexType>
+                    <xs:choice>
+                        <!--var-->
+                        <xs:element name="name" type="xs:string"></xs:element>
+                        <!--indexed var-->
+                        <xs:element name="indexed">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="name" type="xs:string"></xs:element>
+                                    <xs:element name="lbracket">
+                                        <xs:complexType></xs:complexType>
+                                    </xs:element>
+                                    <xs:element name="simpleExpr" type="simpleExprType"></xs:element>
+                                    <xs:element name="commaExpr" minOccurs="0" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="comma">
+                                                    <xs:complexType></xs:complexType>
+                                                </xs:element>
+                                                <xs:element name="simpleExpr" type="simpleExprType"></xs:element>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                    <xs:element name="rbracket">
+                                        <xs:complexType></xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:choice>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="subExpr">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="lparen">
+                            <xs:complexType></xs:complexType>
+                        </xs:element>
+                        <xs:element name="simpleExpr" type="simpleExprType"></xs:element>
+                        <xs:element name="rparen">
+                            <xs:complexType></xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:choice>
+    </xs:complexType>
+    <!--definition of term, according to pascal grammar-->
+    <xs:complexType name="termType">
+        <xs:sequence>
+            <xs:element name="signedFactor" type="signedFactorType"></xs:element>
+            <xs:element name="mulopSignedFactor" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="mulop">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="*"/>
+                                    <xs:enumeration value="/"/>
+                                    <xs:enumeration value="div"/>
+                                    <xs:enumeration value="mod"/>
+                                    <xs:enumeration value="and"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="signedFactor" type="signedFactorType"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <!--definition of simple expression according to pascal grammar-->
+    <xs:complexType name="simpleExprType">
+        <xs:sequence>
+            <xs:element name="term" type="termType"></xs:element>
+            <xs:element name="addopTerm" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="addop">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="+"/>
+                                    <xs:enumeration value="-"/>
+                                    <xs:enumeration value="or"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="term" type="termType"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!--loop variable type-->
+    
+    <xs:complexType name="varType">
+        <xs:sequence>
+            <xs:element name="varName" type="xs:string"></xs:element>
+            <xs:element name="simpleExpr" type="simpleExprType"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!--loop out port type-->
+    
+    <xs:complexType name="outPortType">
+        <xs:complexContent>
+            <xs:extension base="inPortType">
+                <xs:sequence>
+                    <xs:element name="iter" minOccurs="0">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="name" type="xs:string"></xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <xs:complexType name="forType">
+        <xs:sequence>
+            <!--only lower upper bound of loop can be changed from another loop-->
+            <xs:element name="inPorts" type="inPortType"></xs:element>
+            <xs:element name="outPorts" type="outPortType"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!--for loop--> 
+    <xs:element name="for" type="forType"></xs:element>
+    
+    
+    
+    <!--conditional loop type-->
+    <xs:complexType name="condType">
+        <xs:sequence>
+            <!--desired complexity-->
+            <xs:element name="ports">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="inPorts" type="inPortType"></xs:element>
+                        <xs:element name="outPorts" type="outPortType"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <!--operation which shoud generate desired complexity-->
+            <xs:element name="direction">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="to"/>
+                        <xs:enumeration value="downto"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <!--while and repeat loops-->
+    <xs:element name="while" type="condType"></xs:element>
+    <xs:element name="repeat" type="condType"></xs:element>
+    
+    <!--definition of simple loop-->
+    <xs:element name="simpleLoop">
+        <xs:complexType>
+            <xs:choice>
+                <xs:element name="while" type="condType"></xs:element>
+                <xs:element name="repeat" type="condType"></xs:element>
+                <xs:element name="for" type="forType"></xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <!--definition of loop sequence-->
+    <xs:element name="sequence">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="program" type="programType" minOccurs="2" maxOccurs="unbounded">
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!--definition of program segment-->
+    <xs:complexType name="programType">
+        <xs:choice>
+            <xs:element name="loop" type="loopType"></xs:element>
+            <xs:element name="const" type="constType"></xs:element>
+            <xs:element name="if" type="ifType"></xs:element>
+        </xs:choice>
+    </xs:complexType>
+    <!--definition of two nested loops-->
+    <xs:element name="nested">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="outer" type="loopType" ></xs:element>
+                <xs:element name="inner" type="programType" ></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!--this is root node and it represents whole program segment-->
+    <xs:element name="segment">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="complexity" type="cmn:complType"></xs:element>
+                <xs:element name="program" type="programType"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name="constType">
+        <xs:sequence>
+            <!--input ports are variables from the right side-->
+            <!--output ports are variable from left side-->
+            <xs:element name="inPorts" type="inPortType"></xs:element>
+            <xs:element name="outPorts" type="outPortType"></xs:element>
+            <xs:element name="expr" type="varType" minOccurs="1" maxOccurs="1"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    <xs:complexType name="loopType">
+        <xs:choice>
+            <xs:element ref="simpleLoop"></xs:element>
+            <xs:element ref="nested"></xs:element>
+            <xs:element ref="sequence"></xs:element>
+        </xs:choice>
+    </xs:complexType>
+    
+    <xs:complexType name="ifType">
+        <xs:sequence>
+            <!--input ports are variables for expressions + input ports from then and else branches-->
+            <!--output ports are all inputs + all outputs from then and else branches-->
+            <xs:element name="inPorts" type="inPortType"></xs:element>
+            <xs:element name="outPorts" type="outPortType"></xs:element>
+            <xs:element name="left" type="simpleExprType"></xs:element>
+            <xs:element name="relop" type="xs:string"></xs:element>
+            <xs:element name="right" type="simpleExprType"></xs:element>
+            <xs:element name="thenBranch" type="programType" minOccurs="0"></xs:element>
+            <xs:element name="elseBranch" type="programType" minOccurs="0"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
+    

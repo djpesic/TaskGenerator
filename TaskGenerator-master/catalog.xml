@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/D:/djole%20dokumenti/dokumenti/Java%20programi/TaskGenerator/../TaskGenerator1/xml-resources/jaxb/programSegment/programSegment.xsd" uri="xml-resources/jaxb/programSegment/programSegment.xsd"/>
+    <system systemId="file:/D:/djole%20dokumenti/dokumenti/Java%20programi/TaskGenerator/../TaskGenerator1/xml-resources/jaxb/common/common.xsd" uri="xml-resources/jaxb/common/common.xsd"/>
+    <system systemId="file:/D:/djole%20dokumenti/dokumenti/Java%20programi/TaskGenerator/../TaskGenerator1/xml-resources/jaxb/rules/rules.xsd" uri="xml-resources/jaxb/rules/rules.xsd"/>
+    <system systemId="file:/D:/djole%20dokumenti/dokumenti/Java%20programi/TaskGenerator1/xml-resources/jaxb/common/common.xsd" uri="xml-resources/jaxb/common/common.xsd"/>
+    <system systemId="file:/D:/djole%20dokumenti/dokumenti/Java%20programi/TaskGenerator/../TaskGenerator1/xml-resources/jaxb/dependencyRules/dependencyRules.xsd" uri="xml-resources/jaxb/dependencyRules/dependencyRules.xsd"/>
+</catalog>

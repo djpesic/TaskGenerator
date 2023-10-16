@@ -1,0 +1,16 @@
+org.apache.commons.jxpath
+org.apache.commons.jxpath.functions
+org.apache.commons.jxpath.ri
+org.apache.commons.jxpath.ri.axes
+org.apache.commons.jxpath.ri.compiler
+org.apache.commons.jxpath.ri.model
+org.apache.commons.jxpath.ri.model.beans
+org.apache.commons.jxpath.ri.model.container
+org.apache.commons.jxpath.ri.model.dom
+org.apache.commons.jxpath.ri.model.dynabeans
+org.apache.commons.jxpath.ri.model.dynamic
+org.apache.commons.jxpath.ri.model.jdom
+org.apache.commons.jxpath.ri.parser
+org.apache.commons.jxpath.servlet
+org.apache.commons.jxpath.util
+org.apache.commons.jxpath.xml

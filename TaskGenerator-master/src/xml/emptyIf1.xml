@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<segment xmlns:ns2="common">
+    <complexity>
+        <ns2:func>1</ns2:func>
+    </complexity>
+    <program>
+        <if>
+            <inPorts/>
+            <outPorts/>
+            <left>
+                <term>
+                    <signedFactor>
+                        <sign></sign>
+                        <factor>
+                            <var>
+                                <name>#</name>
+                            </var>
+                        </factor>
+                    </signedFactor>
+                </term>
+            </left>
+            <relop>&lt;</relop>
+            <right>
+                <term>
+                    <signedFactor>
+                        <sign></sign>
+                        <factor>
+                            <var>
+                                <name>#</name>
+                            </var>
+                        </factor>
+                    </signedFactor>
+                </term>
+            </right>
+        </if>
+    </program>
+</segment>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<segment xmlns:ns2="common">
+    <complexity>
+        <ns2:func>1</ns2:func>
+    </complexity>
+    <program>
+        <loop>
+            <sequence>
+                <program>
+                    <const>
+                        <inPorts>
+                            <port name="a" inherited="false"/>
+                        </inPorts>
+                        <outPorts>
+                            <port name="a" inherited="false"/>
+                        </outPorts>
+                        <expr>
+                            <varName>a</varName>
+                            <simpleExpr>
+                                <term>
+                                    <signedFactor>
+                                        <sign></sign>
+                                        <factor>
+                                            <var>
+                                                <name>a</name>
+                                            </var>
+                                        </factor>
+                                    </signedFactor>
+                                </term>
+                                <addopTerm>
+                                    <addop>+</addop>
+                                    <term>
+                                        <signedFactor>
+                                            <sign></sign>
+                                            <factor>
+                                                <constant>3</constant>
+                                            </factor>
+                                        </signedFactor>
+                                    </term>
+                                </addopTerm>
+                            </simpleExpr>
+                        </expr>
+                    </const>
+                </program>
+                <program>
+                    <const>
+                        <inPorts>
+                            <port name="a" inherited="true"/>
+                            <port name="b" inherited="false"/>
+                        </inPorts>
+                        <outPorts>
+                            <port name="a" inherited="true"/>
+                            <port name="b" inherited="false"/>
+                        </outPorts>
+                        <expr>
+                            <varName>b</varName>
+                            <simpleExpr>
+                                <term>
+                                    <signedFactor>
+                                        <sign></sign>
+                                        <factor>
+                                            <var>
+                                                <name>b</name>
+                                            </var>
+                                        </factor>
+                                    </signedFactor>
+                                </term>
+                                <addopTerm>
+                                    <addop>-</addop>
+                                    <term>
+                                        <signedFactor>
+                                            <sign></sign>
+                                            <factor>
+                                                <constant>4</constant>
+                                            </factor>
+                                        </signedFactor>
+                                    </term>
+                                </addopTerm>
+                            </simpleExpr>
+                        </expr>
+                    </const>
+                </program>
+            </sequence>
+        </loop>
+    </program>
+</segment>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<segment xmlns:ns2="common">
+    <complexity>
+        <ns2:func></ns2:func>
+    </complexity>
+    <program>
+        <if>
+            <inPorts>
+                <port name="a" inherited="false"/>
+                <port name="b" inherited="false"/>
+            </inPorts>
+            <outPorts>
+                <port name="a" inherited="false"/>
+                <port name="b" inherited="false"/>
+            </outPorts>
+            <left>
+                <term>
+                    <signedFactor>
+                        <sign></sign>
+                        <factor>
+                            <var>
+                                <name>a</name>
+                            </var>
+                        </factor>
+                    </signedFactor>
+                </term>
+            </left>
+            <relop>&lt;</relop>
+            <right>
+                <term>
+                    <signedFactor>
+                        <sign></sign>
+                        <factor>
+                            <var>
+                                <name>b</name>
+                            </var>
+                        </factor>
+                    </signedFactor>
+                </term>
+            </right>
+        </if>
+    </program>
+</segment>

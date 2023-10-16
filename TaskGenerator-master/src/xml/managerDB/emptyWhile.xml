@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<segment xmlns:ns2="common">
+    <complexity>
+        <ns2:func></ns2:func>
+    </complexity>
+    <program>
+        <loop>
+            <simpleLoop>
+                <while>
+                    <ports>
+                        <inPorts>
+                            <lower>
+                                <name>a</name>
+                            </lower>
+                            <upper>
+                                <name>b</name>
+                            </upper>
+                            <port name="a" inherited="false"/>
+                            <port name="b" inherited="false"/>
+                        </inPorts>
+                        <outPorts>
+                            <port name="a" inherited="false"/>
+                            <port name="b" inherited="false"/>
+                        </outPorts>
+                    </ports>
+                    <direction>to</direction>
+                </while>
+            </simpleLoop>
+        </loop>
+    </program>
+</segment>

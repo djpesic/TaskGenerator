@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<segment xmlns:ns2="common">
+    <complexity>
+        <ns2:func>1</ns2:func>
+    </complexity>
+    <program>
+        <const>
+            <inPorts>
+                <port name="a" inherited="false"/>
+            </inPorts>
+            <outPorts>
+                <port name="a" inherited="false"/>
+            </outPorts>
+            <expr>
+                <varName>a</varName>
+                <simpleExpr>
+                    <term>
+                        <signedFactor>
+                            <sign></sign>
+                            <factor>
+                                <var>
+                                    <name>a</name>
+                                </var>
+                            </factor>
+                        </signedFactor>
+                        <mulopSignedFactor>
+                            <mulop>*</mulop>
+                            <signedFactor>
+                                <sign></sign>
+                                <factor>
+                                    <constant>@</constant>
+                                </factor>
+                            </signedFactor>
+                        </mulopSignedFactor>
+                    </term>
+                </simpleExpr>
+            </expr>
+        </const>
+    </program>
+</segment>

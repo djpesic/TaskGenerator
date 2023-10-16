@@ -1,0 +1,20 @@
+@startuml
+(*) -right--> "Generisanje i raspakivanje ulaznog XML fajla"
+if "obrada jedne petlje" then
+    -right-->[true]"Raspakuj prostu petlju" as prosta
+else
+    if  "Obrada sekvence" then
+        -right-->[true]"Raspakuj sekvencu" as sekvenca
+    else
+        if "Obrada ugnezdavanja" then
+            -right->[true] "Raspakuj ugnezdene petlje" as ugnezdena
+        else
+            -->[false]"Greska"
+            -->(*)
+        endif
+    endif
+endif
+prosta --> (*)
+ugnezdena --> (*)
+sekvenca --> (*)
+@enduml

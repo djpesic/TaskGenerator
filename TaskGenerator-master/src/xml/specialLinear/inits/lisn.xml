@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<segment xmlns:ns2="common">
+    <complexity>
+        <ns2:func>1</ns2:func>
+    </complexity>
+    <program>
+        <const>
+            <inPorts>
+                <port name="n" inherited="false"/>
+            </inPorts>
+            <outPorts>
+                <port name="l" inherited="false"/>
+                <port name="n" inherited="false"/>
+            </outPorts>
+            <expr>
+                <varName>l</varName>
+                <simpleExpr>
+                    <term>
+                        <signedFactor>
+                            <sign></sign>
+                            <factor>
+                                <var>
+                                    <name>n</name>
+                                </var>
+                            </factor>
+                        </signedFactor>
+                    </term>
+                </simpleExpr>
+            </expr>
+        </const>
+    </program>
+</segment>

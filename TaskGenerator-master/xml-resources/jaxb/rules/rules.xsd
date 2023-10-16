@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:cmn="common"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:import schemaLocation="../common/common.xsd" namespace="common"></xs:import>
+  
+    <!--if template refers to more than one file name, segments
+    represented with these files must have the same complexity. If operation contains port connecting, all segments 
+    included in the template must have ports from connection map-->
+
+    <xs:element name="rule" >
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="template" type="templateType" minOccurs="2" maxOccurs="2"></xs:element>
+                <xs:element name="operation" type="operationType"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+  
+    
+    
+    
+    <xs:complexType name="templateType">
+        <xs:choice>
+            <xs:sequence>
+                <xs:element name="fileName" type="xs:string" minOccurs = "1" maxOccurs = "1"></xs:element>
+                <xs:element name="inComplexity" type="cmn:complType"></xs:element>
+                <xs:element name="varMap" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="current" type="xs:string" use="required"></xs:attribute>
+                        <xs:attribute name="actual" type="xs:string" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:element name="ruleName" type="xs:string"></xs:element>
+        </xs:choice>
+       
+    </xs:complexType>
+    
+    
+    
+    <xs:complexType name="operationType">
+        <xs:sequence>
+            <xs:choice>
+                <!--sequencing first and second template-->
+                <xs:element name="sequence" type="xs:boolean"></xs:element>
+                <!--nesting second template into first-->
+                <xs:element name="nesting" type="xs:boolean"></xs:element>
+                <!--first template goes to then, second to else branch-->
+                <xs:element name="selection">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="selTemplate" type="templateType"></xs:element>
+                            <xs:element name="useElseBranch" type="xs:boolean"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+            <xs:element name="connection" type="connectionType" minOccurs="0" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    
+    <xs:complexType name="connectionType">
+        <xs:attribute name="inPort" type="xs:string" use="required"></xs:attribute>
+        <xs:attribute name="outPort" type="xs:string" use="required"></xs:attribute>
+    </xs:complexType>
+      
+    
+</xs:schema>
