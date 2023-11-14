@@ -275,8 +275,8 @@ public class AssemblyManager {
         try {
         f = new File("err.txt");
         System.setErr(new PrintStream(f));
-//            useGeneticAlg();
-        useTopDownGuidedAlg();
+            useGeneticAlg();
+//        useTopDownGuidedAlg();
         } catch (FileNotFoundException ex) {
             ex.printStackTrace();
         }

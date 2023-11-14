@@ -1,0 +1,15012 @@
+Segment 0, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	c := c * 20;
+	d := n;
+	repeat
+	begin
+		d := d / 64
+	end
+	until c>d
+end
+until a>b
+
+Segment 1, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	c := c * 20;
+	d := n;
+	repeat
+	begin
+		c := c * 69
+	end
+	until c>=d;
+	k := k + 54;
+	l := l - 54
+end
+until a>=b
+
+Segment 2, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 8;
+	c := c * 20;
+	d := n;
+	while c<=d do
+	begin;
+		d := d / 29
+	end
+end
+
+Segment 3, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 45;
+	c := c * 20;
+	d := n;
+	while c<=d do
+	begin;
+		d := d - 78
+	end
+end
+
+Segment 4, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k * k;
+	b := l * l;
+	c := c * 20;
+	d := n;
+	while c<d do
+	begin;
+		c := c * 37
+	end;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 5, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	d := n;
+	c := c * 20;
+	repeat
+	begin
+		d := d / 99
+	end
+	until c>=d
+end
+until a>b
+
+Segment 6, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	d := n;
+	c := c * 20;
+	repeat
+	begin
+		c := c * 64
+	end
+	until c>=d;
+	k := k + 54;
+	l := l - 54
+end
+until a>=b
+
+Segment 7, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 48;
+	d := n;
+	c := c * 20;
+	while c<d do
+	begin;
+		d := d / 43
+	end
+end
+
+Segment 8, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 25;
+	d := n;
+	c := c * 20;
+	while c<d do
+	begin;
+		d := d - 75
+	end
+end
+
+Segment 9, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k * k;
+	b := l * l;
+	d := n;
+	c := c * 20;
+	while c<d do
+	begin;
+		c := c * 87
+	end;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 10, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 3;
+	d := d / 36;
+	c := 25;
+	k := 1;
+	l := n;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>=d
+end
+until a>b
+
+Segment 11, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		d := d / 46
+	end
+	until c>d
+end
+until a>b
+
+Segment 12, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 70;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		c := c + 97;
+		d := d - 10
+	end
+	until c>d
+end
+until a>=b
+
+Segment 13, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		c := c * 4
+	end
+	until c>=d;
+	k := k + 54;
+	l := l - 54
+end
+until a>=b
+
+Segment 14, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	d := d / 36;
+	c := 25;
+	l := n;
+	k := 1;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>d
+end
+
+Segment 15, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 90;
+	d := d / 36;
+	c := 25;
+	while c<=d do
+	begin;
+		c := c + 97;
+		d := d - 10
+	end
+end
+until a>=b
+
+Segment 16, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 91;
+	d := d / 36;
+	c := 25;
+	while c<d do
+	begin;
+		d := d / 61
+	end
+end
+
+Segment 17, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 47;
+	d := d / 36;
+	c := 25;
+	while c<=d do
+	begin;
+		d := d - 9
+	end
+end
+
+Segment 18, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k * k;
+	b := l * l;
+	d := d / 36;
+	c := 25;
+	while c<=d do
+	begin;
+		c := c * 97
+	end;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 19, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 3;
+	d := d / 36;
+	c := 25;
+	l := n;
+	k := 1;
+	while c<d do
+	begin;
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+end
+
+Segment 20, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 91;
+	b := b / 35;
+	d := d / 36;
+	c := 25;
+	while c<d do
+	begin;
+		c := c + 8
+	end
+end
+until a>b
+
+Segment 21, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 80;
+	a := a / 6;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		c := c / 16;
+		d := d / 87
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 22, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 61;
+	b := b / 11;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		d := d / 6;
+		c := c / 97
+	end
+	until c>=d
+end
+until a>b
+
+Segment 23, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 72;
+	a := a - 97;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		c := c - 100;
+		d := d / 75
+	end
+	until c>=d
+end
+until a>b
+
+Segment 24, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 40;
+	b := b - 59;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		d := d / 51;
+		c := c - 57
+	end
+	until c>d
+end
+until a>b
+
+Segment 25, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 69;
+	b := b + 99;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		c := c - 48;
+		d := d - 20
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 26, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 29;
+	b := b / 89;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		c := c * 97;
+		d := d + 94
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 27, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 36;
+	a := a * 1;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		c := c * 94;
+		d := d / 6
+	end
+	until c>d
+end
+until a>=b
+
+Segment 28, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 83;
+	a := a * 89;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		d := d / 98;
+		c := c * 54
+	end
+	until c>d
+end
+until a>=b
+
+Segment 29, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 31;
+	b := b - 12;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		d := d * 2;
+		c := c * 81
+	end
+	until c>d
+end
+until a>=b
+
+Segment 30, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 28;
+	a := a * 92;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		c := c * 100;
+		d := d - 32
+	end
+	until c>=d
+end
+until a>b
+
+Segment 31, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 95;
+	b := b + 37;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		d := d - 34;
+		c := c * 54
+	end
+	until c>d
+end
+until a>=b
+
+Segment 32, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 99;
+	a := a + 49;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		c := c + 20;
+		d := d + 34
+	end
+	until c>d
+end
+until a>=b
+
+Segment 33, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 68;
+	b := b / 20;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		d := d + 22;
+		c := c + 13
+	end
+	until c>=d
+end
+until a>b
+
+Segment 34, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 34;
+	a := a + 85;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		c := c + 29;
+		d := d / 21
+	end
+	until c>=d
+end
+until a>b
+
+Segment 35, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 96;
+	b := b - 39;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		d := d / 51;
+		c := c + 5
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 36, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 78;
+	a := a + 97;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		c := c + 67;
+		d := d - 21
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 37, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 23;
+	b := b / 52;
+	d := d / 36;
+	c := 25;
+	repeat
+	begin
+		d := d - 64;
+		c := c + 50
+	end
+	until c>=d
+end
+
+Segment 38, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 47;
+	a := a - 38;
+	d := d / 36;
+	c := 25;
+	while c<=d do
+	begin;
+		c := c - 16;
+		d := d / 82
+	end
+end
+
+Segment 39, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 58;
+	b := b - 67;
+	d := d / 36;
+	c := 25;
+	while c<d do
+	begin;
+		d := d / 85;
+		c := c - 51
+	end
+end
+
+Segment 40, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 21;
+	b := b + 22;
+	d := d / 36;
+	c := 25;
+	while c<d do
+	begin;
+		c := c - 79;
+		d := d - 67
+	end
+end
+
+Segment 41, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b + 80;
+	a := a * 21;
+	d := d / 36;
+	c := 25;
+	while c<=d do
+	begin;
+		c := c * 86;
+		d := d + 77
+	end
+end
+
+Segment 42, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 97;
+	b := b / 81;
+	d := d / 36;
+	c := 25;
+	while c<=d do
+	begin;
+		d := d + 76;
+		c := c * 50
+	end
+end
+
+Segment 43, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 9;
+	a := a * 63;
+	d := d / 36;
+	c := 25;
+	while c<=d do
+	begin;
+		c := c * 82;
+		d := d / 58
+	end
+end
+
+Segment 44, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b * 31;
+	a := a * 79;
+	d := d / 36;
+	c := 25;
+	while c<=d do
+	begin;
+		d := d / 68;
+		c := c * 55
+	end
+end
+
+Segment 45, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 24;
+	b := b - 63;
+	d := d / 36;
+	c := 25;
+	while c<d do
+	begin;
+		d := d * 66;
+		c := c * 80
+	end
+end
+
+Segment 46, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 14;
+	a := a * 61;
+	d := d / 36;
+	c := 25;
+	while c<d do
+	begin;
+		c := c * 40;
+		d := d - 47
+	end
+end
+
+Segment 47, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 36;
+	b := b / 74;
+	d := d / 36;
+	c := 25;
+	while c<=d do
+	begin;
+		d := d - 84;
+		c := c * 50
+	end
+end
+
+Segment 48, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 1;
+	a := a + 63;
+	d := d / 36;
+	c := 25;
+	while c<=d do
+	begin;
+		c := c + 49;
+		d := d / 55
+	end
+end
+
+Segment 49, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 56;
+	b := b - 57;
+	d := d / 36;
+	c := 25;
+	while c<d do
+	begin;
+		d := d / 76;
+		c := c + 79
+	end
+end
+
+Segment 50, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 17;
+	a := a + 17;
+	d := d / 36;
+	c := 25;
+	while c<=d do
+	begin;
+		c := c + 39;
+		d := d - 52
+	end
+end
+
+Segment 51, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 64;
+	c := 25;
+	d := d / 36;
+	k := 1;
+	l := n;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>d
+end
+until a>b
+
+Segment 52, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		d := d / 6
+	end
+	until c>=d
+end
+until a>b
+
+Segment 53, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 60;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		c := c + 97;
+		d := d - 10
+	end
+	until c>d
+end
+until a>=b
+
+Segment 54, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		c := c * 55
+	end
+	until c>d;
+	k := k + 54;
+	l := l - 54
+end
+until a>=b
+
+Segment 55, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	c := 25;
+	d := d / 36;
+	l := n;
+	k := 1;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>=d
+end
+
+Segment 56, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 70;
+	c := 25;
+	d := d / 36;
+	while c<=d do
+	begin;
+		c := c + 97;
+		d := d - 10
+	end
+end
+until a>b
+
+Segment 57, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 5;
+	c := 25;
+	d := d / 36;
+	while c<=d do
+	begin;
+		d := d / 31
+	end
+end
+
+Segment 58, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 90;
+	c := 25;
+	d := d / 36;
+	while c<=d do
+	begin;
+		d := d - 32
+	end
+end
+
+Segment 59, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k * k;
+	b := l * l;
+	c := 25;
+	d := d / 36;
+	while c<=d do
+	begin;
+		c := c * 67
+	end;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 60, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 25;
+	c := 25;
+	d := d / 36;
+	l := n;
+	k := 1;
+	while c<=d do
+	begin;
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+end
+
+Segment 61, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 83;
+	b := b / 17;
+	c := 25;
+	d := d / 36;
+	while c<=d do
+	begin;
+		c := c + 30
+	end
+end
+until a>=b
+
+Segment 62, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 32;
+	a := a / 9;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		c := c / 61;
+		d := d / 58
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 63, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 28;
+	b := b / 44;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		d := d / 17;
+		c := c / 11
+	end
+	until c>=d
+end
+until a>b
+
+Segment 64, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 71;
+	a := a - 39;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		c := c - 55;
+		d := d / 4
+	end
+	until c>d
+end
+until a>b
+
+Segment 65, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 9;
+	b := b - 39;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		d := d / 64;
+		c := c - 3
+	end
+	until c>d
+end
+until a>b
+
+Segment 66, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 68;
+	b := b + 57;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		c := c - 9;
+		d := d - 38
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 67, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 73;
+	b := b / 23;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		c := c * 66;
+		d := d + 40
+	end
+	until c>=d
+end
+until a>b
+
+Segment 68, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 94;
+	a := a * 28;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		c := c * 100;
+		d := d / 44
+	end
+	until c>d
+end
+until a>b
+
+Segment 69, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 84;
+	a := a * 40;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		d := d / 69;
+		c := c * 7
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 70, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 62;
+	b := b - 3;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		d := d * 43;
+		c := c * 48
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 71, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 4;
+	a := a * 88;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		c := c * 17;
+		d := d - 7
+	end
+	until c>=d
+end
+until a>b
+
+Segment 72, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 67;
+	b := b + 19;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		d := d - 68;
+		c := c * 67
+	end
+	until c>d
+end
+until a>b
+
+Segment 73, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 71;
+	a := a + 33;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		c := c + 76;
+		d := d + 71
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 74, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 8;
+	b := b / 63;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		d := d + 68;
+		c := c + 98
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 75, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 77;
+	a := a + 93;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		c := c + 95;
+		d := d / 97
+	end
+	until c>d
+end
+until a>=b
+
+Segment 76, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 84;
+	b := b - 62;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		d := d / 13;
+		c := c + 16
+	end
+	until c>=d
+end
+until a>b
+
+Segment 77, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 72;
+	a := a + 79;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		c := c + 64;
+		d := d - 73
+	end
+	until c>d
+end
+until a>=b
+
+Segment 78, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a - 82;
+	b := b / 80;
+	c := 25;
+	d := d / 36;
+	repeat
+	begin
+		d := d - 60;
+		c := c + 64
+	end
+	until c>=d
+end
+
+Segment 79, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 71;
+	a := a - 94;
+	c := 25;
+	d := d / 36;
+	while c<=d do
+	begin;
+		c := c - 20;
+		d := d / 76
+	end
+end
+
+Segment 80, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 82;
+	b := b - 94;
+	c := 25;
+	d := d / 36;
+	while c<=d do
+	begin;
+		d := d / 57;
+		c := c - 97
+	end
+end
+
+Segment 81, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 48;
+	b := b + 62;
+	c := 25;
+	d := d / 36;
+	while c<=d do
+	begin;
+		c := c - 19;
+		d := d - 35
+	end
+end
+
+Segment 82, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b + 18;
+	a := a * 63;
+	c := 25;
+	d := d / 36;
+	while c<d do
+	begin;
+		c := c * 31;
+		d := d + 85
+	end
+end
+
+Segment 83, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 12;
+	b := b / 19;
+	c := 25;
+	d := d / 36;
+	while c<d do
+	begin;
+		d := d + 63;
+		c := c * 84
+	end
+end
+
+Segment 84, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 95;
+	a := a * 21;
+	c := 25;
+	d := d / 36;
+	while c<=d do
+	begin;
+		c := c * 87;
+		d := d / 48
+	end
+end
+
+Segment 85, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b * 51;
+	a := a * 67;
+	c := 25;
+	d := d / 36;
+	while c<=d do
+	begin;
+		d := d / 70;
+		c := c * 65
+	end
+end
+
+Segment 86, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 61;
+	b := b - 68;
+	c := 25;
+	d := d / 36;
+	while c<d do
+	begin;
+		d := d * 21;
+		c := c * 87
+	end
+end
+
+Segment 87, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 77;
+	a := a * 86;
+	c := 25;
+	d := d / 36;
+	while c<d do
+	begin;
+		c := c * 65;
+		d := d - 96
+	end
+end
+
+Segment 88, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 41;
+	b := b / 89;
+	c := 25;
+	d := d / 36;
+	while c<=d do
+	begin;
+		d := d - 43;
+		c := c * 64
+	end
+end
+
+Segment 89, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 2;
+	a := a + 71;
+	c := 25;
+	d := d / 36;
+	while c<d do
+	begin;
+		c := c + 93;
+		d := d / 52
+	end
+end
+
+Segment 90, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 33;
+	b := b - 81;
+	c := 25;
+	d := d / 36;
+	while c<d do
+	begin;
+		d := d / 51;
+		c := c + 54
+	end
+end
+
+Segment 91, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 79;
+	a := a + 74;
+	c := 25;
+	d := d / 36;
+	while c<d do
+	begin;
+		c := c + 38;
+		d := d - 2
+	end
+end
+
+Segment 92, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 12;
+	c := c * 40;
+	d := d / 40;
+	k := 1;
+	l := n;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>=d
+end
+until a>b
+
+Segment 93, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		d := d / 42
+	end
+	until c>d
+end
+until a>=b
+
+Segment 94, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 90;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		c := c + 97;
+		d := d - 10
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 95, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		c := c * 87
+	end
+	until c>=d;
+	k := k + 54;
+	l := l - 54
+end
+until a>b
+
+Segment 96, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	c := c * 40;
+	d := d / 40;
+	l := n;
+	k := 1;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>d
+end
+
+Segment 97, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 40;
+	c := c * 40;
+	d := d / 40;
+	while c<d do
+	begin;
+		c := c + 97;
+		d := d - 10
+	end
+end
+until a>=b
+
+Segment 98, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 30;
+	c := c * 40;
+	d := d / 40;
+	while c<=d do
+	begin;
+		d := d / 55
+	end
+end
+
+Segment 99, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 47;
+	c := c * 40;
+	d := d / 40;
+	while c<d do
+	begin;
+		d := d - 73
+	end
+end
+
+Segment 100, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k * k;
+	b := l * l;
+	c := c * 40;
+	d := d / 40;
+	while c<d do
+	begin;
+		c := c * 87
+	end;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 101, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 36;
+	c := c * 40;
+	d := d / 40;
+	l := n;
+	k := 1;
+	while c<=d do
+	begin;
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+end
+
+Segment 102, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 57;
+	b := b / 73;
+	c := c * 40;
+	d := d / 40;
+	while c<d do
+	begin;
+		c := c + 53
+	end
+end
+until a>b
+
+Segment 103, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 6;
+	a := a / 22;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		c := c / 78;
+		d := d / 28
+	end
+	until c>d
+end
+until a>b
+
+Segment 104, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 87;
+	b := b / 24;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		d := d / 76;
+		c := c / 36
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 105, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 61;
+	a := a - 97;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		c := c - 92;
+		d := d / 31
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 106, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 61;
+	b := b - 85;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		d := d / 47;
+		c := c - 12
+	end
+	until c>d
+end
+until a>=b
+
+Segment 107, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 28;
+	b := b + 47;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		c := c - 100;
+		d := d - 23
+	end
+	until c>d
+end
+until a>=b
+
+Segment 108, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 50;
+	b := b / 3;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		c := c * 48;
+		d := d + 99
+	end
+	until c>=d
+end
+until a>b
+
+Segment 109, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 71;
+	a := a * 61;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		c := c * 53;
+		d := d / 91
+	end
+	until c>d
+end
+until a>b
+
+Segment 110, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 50;
+	a := a * 60;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		d := d / 88;
+		c := c * 91
+	end
+	until c>d
+end
+until a>b
+
+Segment 111, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 33;
+	b := b - 8;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		d := d * 6;
+		c := c * 13
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 112, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 58;
+	a := a * 94;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		c := c * 22;
+		d := d - 60
+	end
+	until c>d
+end
+until a>b
+
+Segment 113, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 68;
+	b := b + 94;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		d := d - 87;
+		c := c * 24
+	end
+	until c>d
+end
+until a>=b
+
+Segment 114, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 21;
+	a := a + 38;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		c := c + 42;
+		d := d + 23
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 115, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 60;
+	b := b / 69;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		d := d + 21;
+		c := c + 49
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 116, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 43;
+	a := a + 70;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		c := c + 90;
+		d := d / 72
+	end
+	until c>d
+end
+until a>b
+
+Segment 117, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 18;
+	b := b - 95;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		d := d / 48;
+		c := c + 37
+	end
+	until c>d
+end
+until a>=b
+
+Segment 118, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 20;
+	a := a + 61;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		c := c + 91;
+		d := d - 16
+	end
+	until c>d
+end
+until a>=b
+
+Segment 119, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 75;
+	b := b / 22;
+	c := c * 40;
+	d := d / 40;
+	repeat
+	begin
+		d := d - 91;
+		c := c + 40
+	end
+	until c>=d
+end
+
+Segment 120, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 10;
+	a := a - 72;
+	c := c * 40;
+	d := d / 40;
+	while c<=d do
+	begin;
+		c := c - 62;
+		d := d / 91
+	end
+end
+
+Segment 121, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 64;
+	b := b - 55;
+	c := c * 40;
+	d := d / 40;
+	while c<d do
+	begin;
+		d := d / 27;
+		c := c - 15
+	end
+end
+
+Segment 122, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 16;
+	b := b + 13;
+	c := c * 40;
+	d := d / 40;
+	while c<d do
+	begin;
+		c := c - 75;
+		d := d - 44
+	end
+end
+
+Segment 123, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b + 32;
+	a := a * 10;
+	c := c * 40;
+	d := d / 40;
+	while c<=d do
+	begin;
+		c := c * 59;
+		d := d + 36
+	end
+end
+
+Segment 124, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 30;
+	b := b / 58;
+	c := c * 40;
+	d := d / 40;
+	while c<d do
+	begin;
+		d := d + 4;
+		c := c * 23
+	end
+end
+
+Segment 125, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 7;
+	a := a * 42;
+	c := c * 40;
+	d := d / 40;
+	while c<=d do
+	begin;
+		c := c * 79;
+		d := d / 53
+	end
+end
+
+Segment 126, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b * 60;
+	a := a * 30;
+	c := c * 40;
+	d := d / 40;
+	while c<=d do
+	begin;
+		d := d / 80;
+		c := c * 95
+	end
+end
+
+Segment 127, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 52;
+	b := b - 46;
+	c := c * 40;
+	d := d / 40;
+	while c<d do
+	begin;
+		d := d * 73;
+		c := c * 94
+	end
+end
+
+Segment 128, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 75;
+	a := a * 16;
+	c := c * 40;
+	d := d / 40;
+	while c<d do
+	begin;
+		c := c * 48;
+		d := d - 47
+	end
+end
+
+Segment 129, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 83;
+	b := b / 44;
+	c := c * 40;
+	d := d / 40;
+	while c<=d do
+	begin;
+		d := d - 77;
+		c := c * 22
+	end
+end
+
+Segment 130, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 50;
+	a := a + 48;
+	c := c * 40;
+	d := d / 40;
+	while c<=d do
+	begin;
+		c := c + 46;
+		d := d / 4
+	end
+end
+
+Segment 131, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 2;
+	b := b - 5;
+	c := c * 40;
+	d := d / 40;
+	while c<=d do
+	begin;
+		d := d / 1;
+		c := c + 92
+	end
+end
+
+Segment 132, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 8;
+	a := a + 44;
+	c := c * 40;
+	d := d / 40;
+	while c<=d do
+	begin;
+		c := c + 38;
+		d := d - 10
+	end
+end
+
+Segment 133, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 27;
+	d := d / 40;
+	c := c * 40;
+	k := 1;
+	l := n;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>d
+end
+until a>b
+
+Segment 134, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		d := d / 49
+	end
+	until c>d
+end
+until a>=b
+
+Segment 135, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 10;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		c := c + 97;
+		d := d - 10
+	end
+	until c>d
+end
+until a>=b
+
+Segment 136, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		c := c * 63
+	end
+	until c>d;
+	k := k + 54;
+	l := l - 54
+end
+until a>b
+
+Segment 137, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	d := d / 40;
+	c := c * 40;
+	l := n;
+	k := 1;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>=d
+end
+
+Segment 138, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 79;
+	d := d / 40;
+	c := c * 40;
+	while c<=d do
+	begin;
+		c := c + 97;
+		d := d - 10
+	end
+end
+until a>b
+
+Segment 139, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 34;
+	d := d / 40;
+	c := c * 40;
+	while c<=d do
+	begin;
+		d := d / 82
+	end
+end
+
+Segment 140, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 51;
+	d := d / 40;
+	c := c * 40;
+	while c<d do
+	begin;
+		d := d - 73
+	end
+end
+
+Segment 141, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k * k;
+	b := l * l;
+	d := d / 40;
+	c := c * 40;
+	while c<d do
+	begin;
+		c := c * 7
+	end;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 142, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 54;
+	d := d / 40;
+	c := c * 40;
+	l := n;
+	k := 1;
+	while c<d do
+	begin;
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+end
+
+Segment 143, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 89;
+	b := b / 10;
+	d := d / 40;
+	c := c * 40;
+	while c<d do
+	begin;
+		c := c + 96
+	end
+end
+until a>b
+
+Segment 144, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 44;
+	a := a / 12;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		c := c / 100;
+		d := d / 74
+	end
+	until c>d
+end
+until a>b
+
+Segment 145, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 6;
+	b := b / 45;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		d := d / 74;
+		c := c / 79
+	end
+	until c>=d
+end
+until a>b
+
+Segment 146, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 3;
+	a := a - 42;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		c := c - 20;
+		d := d / 87
+	end
+	until c>d
+end
+until a>=b
+
+Segment 147, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 93;
+	b := b - 11;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		d := d / 71;
+		c := c - 22
+	end
+	until c>=d
+end
+until a>b
+
+Segment 148, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 13;
+	b := b + 12;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		c := c - 29;
+		d := d - 4
+	end
+	until c>d
+end
+until a>=b
+
+Segment 149, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 83;
+	b := b / 35;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		c := c * 75;
+		d := d + 41
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 150, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 47;
+	a := a * 30;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		c := c * 67;
+		d := d / 76
+	end
+	until c>d
+end
+until a>=b
+
+Segment 151, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 7;
+	a := a * 79;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		d := d / 14;
+		c := c * 64
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 152, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 95;
+	b := b - 80;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		d := d * 99;
+		c := c * 19
+	end
+	until c>d
+end
+until a>b
+
+Segment 153, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 32;
+	a := a * 4;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		c := c * 76;
+		d := d - 28
+	end
+	until c>=d
+end
+until a>b
+
+Segment 154, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 35;
+	b := b + 2;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		d := d - 37;
+		c := c * 79
+	end
+	until c>=d
+end
+until a>b
+
+Segment 155, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 9;
+	a := a + 76;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		c := c + 23;
+		d := d + 60
+	end
+	until c>=d
+end
+until a>b
+
+Segment 156, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 47;
+	b := b / 3;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		d := d + 18;
+		c := c + 67
+	end
+	until c>d
+end
+until a>=b
+
+Segment 157, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 48;
+	a := a + 97;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		c := c + 10;
+		d := d / 24
+	end
+	until c>d
+end
+until a>=b
+
+Segment 158, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 65;
+	b := b - 62;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		d := d / 9;
+		c := c + 15
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 159, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 60;
+	a := a + 49;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		c := c + 20;
+		d := d - 91
+	end
+	until c>d
+end
+until a>=b
+
+Segment 160, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 77;
+	b := b / 28;
+	d := d / 40;
+	c := c * 40;
+	repeat
+	begin
+		d := d - 1;
+		c := c + 94
+	end
+	until c>=d
+end
+
+Segment 161, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 61;
+	a := a - 13;
+	d := d / 40;
+	c := c * 40;
+	while c<=d do
+	begin;
+		c := c - 53;
+		d := d / 92
+	end
+end
+
+Segment 162, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a - 84;
+	b := b - 69;
+	d := d / 40;
+	c := c * 40;
+	while c<=d do
+	begin;
+		d := d / 23;
+		c := c - 6
+	end
+end
+
+Segment 163, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 15;
+	b := b + 14;
+	d := d / 40;
+	c := c * 40;
+	while c<d do
+	begin;
+		c := c - 27;
+		d := d - 35
+	end
+end
+
+Segment 164, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b + 11;
+	a := a * 83;
+	d := d / 40;
+	c := c * 40;
+	while c<=d do
+	begin;
+		c := c * 4;
+		d := d + 89
+	end
+end
+
+Segment 165, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 93;
+	b := b / 59;
+	d := d / 40;
+	c := c * 40;
+	while c<d do
+	begin;
+		d := d + 31;
+		c := c * 38
+	end
+end
+
+Segment 166, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 37;
+	a := a * 48;
+	d := d / 40;
+	c := c * 40;
+	while c<d do
+	begin;
+		c := c * 4;
+		d := d / 52
+	end
+end
+
+Segment 167, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b * 11;
+	a := a * 24;
+	d := d / 40;
+	c := c * 40;
+	while c<=d do
+	begin;
+		d := d / 36;
+		c := c * 11
+	end
+end
+
+Segment 168, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 68;
+	b := b - 64;
+	d := d / 40;
+	c := c * 40;
+	while c<d do
+	begin;
+		d := d * 22;
+		c := c * 90
+	end
+end
+
+Segment 169, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 36;
+	a := a * 86;
+	d := d / 40;
+	c := c * 40;
+	while c<=d do
+	begin;
+		c := c * 70;
+		d := d - 14
+	end
+end
+
+Segment 170, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 8;
+	b := b / 43;
+	d := d / 40;
+	c := c * 40;
+	while c<=d do
+	begin;
+		d := d - 64;
+		c := c * 52
+	end
+end
+
+Segment 171, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 42;
+	a := a + 9;
+	d := d / 40;
+	c := c * 40;
+	while c<d do
+	begin;
+		c := c + 45;
+		d := d / 66
+	end
+end
+
+Segment 172, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 19;
+	b := b - 78;
+	d := d / 40;
+	c := c * 40;
+	while c<=d do
+	begin;
+		d := d / 72;
+		c := c + 63
+	end
+end
+
+Segment 173, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 85;
+	a := a + 41;
+	d := d / 40;
+	c := c * 40;
+	while c<=d do
+	begin;
+		c := c + 37;
+		d := d - 53
+	end
+end
+
+Segment 174, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	c := c + 57;
+	d := n;
+	repeat
+	begin
+		d := d / 52
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 175, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	c := c + 57;
+	d := n;
+	repeat
+	begin
+		c := c * 58
+	end
+	until c>=d;
+	k := k + 54;
+	l := l - 54
+end
+until a>b
+
+Segment 176, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 80;
+	c := c + 57;
+	d := n;
+	while c<d do
+	begin;
+		d := d / 21
+	end
+end
+
+Segment 177, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 7;
+	c := c + 57;
+	d := n;
+	while c<d do
+	begin;
+		d := d - 13
+	end
+end
+
+Segment 178, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k * k;
+	b := l * l;
+	c := c + 57;
+	d := n;
+	while c<d do
+	begin;
+		c := c * 94
+	end;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 179, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	d := n;
+	c := c + 57;
+	repeat
+	begin
+		d := d / 87
+	end
+	until c>=d
+end
+until a>b
+
+Segment 180, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	d := n;
+	c := c + 57;
+	repeat
+	begin
+		c := c * 78
+	end
+	until c>=d;
+	k := k + 54;
+	l := l - 54
+end
+until a>=b
+
+Segment 181, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 13;
+	d := n;
+	c := c + 57;
+	while c<d do
+	begin;
+		d := d / 36
+	end
+end
+
+Segment 182, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 67;
+	d := n;
+	c := c + 57;
+	while c<=d do
+	begin;
+		d := d - 34
+	end
+end
+
+Segment 183, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k * k;
+	b := l * l;
+	d := n;
+	c := c + 57;
+	while c<=d do
+	begin;
+		c := c * 34
+	end;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 184, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 72;
+	d := d - 77;
+	c := 70;
+	k := 1;
+	l := n;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 185, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		d := d / 63
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 186, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 39;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		c := c + 97;
+		d := d - 10
+	end
+	until c>=d
+end
+until a>b
+
+Segment 187, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		c := c * 15
+	end
+	until c>=d;
+	k := k + 54;
+	l := l - 54
+end
+until a>b
+
+Segment 188, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	d := d - 77;
+	c := 70;
+	l := n;
+	k := 1;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>d
+end
+
+Segment 189, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 59;
+	d := d - 77;
+	c := 70;
+	while c<=d do
+	begin;
+		c := c + 97;
+		d := d - 10
+	end
+end
+until a>b
+
+Segment 190, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 19;
+	d := d - 77;
+	c := 70;
+	while c<d do
+	begin;
+		d := d / 87
+	end
+end
+
+Segment 191, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 76;
+	d := d - 77;
+	c := 70;
+	while c<d do
+	begin;
+		d := d - 77
+	end
+end
+
+Segment 192, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k * k;
+	b := l * l;
+	d := d - 77;
+	c := 70;
+	while c<=d do
+	begin;
+		c := c * 39
+	end;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 193, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 53;
+	d := d - 77;
+	c := 70;
+	l := n;
+	k := 1;
+	while c<d do
+	begin;
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+end
+
+Segment 194, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 12;
+	b := b / 26;
+	d := d - 77;
+	c := 70;
+	while c<=d do
+	begin;
+		c := c + 88
+	end
+end
+until a>=b
+
+Segment 195, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 92;
+	a := a / 93;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		c := c / 4;
+		d := d / 16
+	end
+	until c>d
+end
+until a>=b
+
+Segment 196, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 97;
+	b := b / 68;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		d := d / 1;
+		c := c / 4
+	end
+	until c>d
+end
+until a>=b
+
+Segment 197, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 67;
+	a := a - 79;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		c := c - 47;
+		d := d / 19
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 198, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 93;
+	b := b - 11;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		d := d / 1;
+		c := c - 75
+	end
+	until c>=d
+end
+until a>b
+
+Segment 199, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 40;
+	b := b + 98;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		c := c - 46;
+		d := d - 65
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 200, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 86;
+	b := b / 22;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		c := c * 52;
+		d := d + 48
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 201, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 41;
+	a := a * 95;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		c := c * 49;
+		d := d / 97
+	end
+	until c>d
+end
+until a>b
+
+Segment 202, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 1;
+	a := a * 44;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		d := d / 79;
+		c := c * 80
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 203, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 6;
+	b := b - 97;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		d := d * 20;
+		c := c * 25
+	end
+	until c>=d
+end
+until a>b
+
+Segment 204, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 26;
+	a := a * 59;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		c := c * 51;
+		d := d - 76
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 205, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 6;
+	b := b + 5;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		d := d - 89;
+		c := c * 71
+	end
+	until c>=d
+end
+until a>b
+
+Segment 206, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 43;
+	a := a + 65;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		c := c + 56;
+		d := d + 82
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 207, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 71;
+	b := b / 100;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		d := d + 21;
+		c := c + 43
+	end
+	until c>d
+end
+until a>=b
+
+Segment 208, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 64;
+	a := a + 11;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		c := c + 43;
+		d := d / 63
+	end
+	until c>d
+end
+until a>=b
+
+Segment 209, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 100;
+	b := b - 78;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		d := d / 57;
+		c := c + 93
+	end
+	until c>d
+end
+until a>=b
+
+Segment 210, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 29;
+	a := a + 73;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		c := c + 73;
+		d := d - 10
+	end
+	until c>d
+end
+until a>=b
+
+Segment 211, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 78;
+	b := b / 35;
+	d := d - 77;
+	c := 70;
+	repeat
+	begin
+		d := d - 97;
+		c := c + 73
+	end
+	until c>=d
+end
+
+Segment 212, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 50;
+	a := a - 89;
+	d := d - 77;
+	c := 70;
+	while c<=d do
+	begin;
+		c := c - 95;
+		d := d / 65
+	end
+end
+
+Segment 213, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 58;
+	b := b - 68;
+	d := d - 77;
+	c := 70;
+	while c<d do
+	begin;
+		d := d / 65;
+		c := c - 37
+	end
+end
+
+Segment 214, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 71;
+	b := b + 24;
+	d := d - 77;
+	c := 70;
+	while c<=d do
+	begin;
+		c := c - 76;
+		d := d - 73
+	end
+end
+
+Segment 215, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b + 45;
+	a := a * 81;
+	d := d - 77;
+	c := 70;
+	while c<=d do
+	begin;
+		c := c * 40;
+		d := d + 8
+	end
+end
+
+Segment 216, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 16;
+	b := b / 1;
+	d := d - 77;
+	c := 70;
+	while c<d do
+	begin;
+		d := d + 41;
+		c := c * 32
+	end
+end
+
+Segment 217, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 54;
+	a := a * 54;
+	d := d - 77;
+	c := 70;
+	while c<d do
+	begin;
+		c := c * 97;
+		d := d / 82
+	end
+end
+
+Segment 218, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b * 51;
+	a := a * 89;
+	d := d - 77;
+	c := 70;
+	while c<=d do
+	begin;
+		d := d / 59;
+		c := c * 68
+	end
+end
+
+Segment 219, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 36;
+	b := b - 86;
+	d := d - 77;
+	c := 70;
+	while c<=d do
+	begin;
+		d := d * 11;
+		c := c * 3
+	end
+end
+
+Segment 220, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 64;
+	a := a * 30;
+	d := d - 77;
+	c := 70;
+	while c<=d do
+	begin;
+		c := c * 8;
+		d := d - 9
+	end
+end
+
+Segment 221, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 69;
+	b := b / 86;
+	d := d - 77;
+	c := 70;
+	while c<=d do
+	begin;
+		d := d - 9;
+		c := c * 66
+	end
+end
+
+Segment 222, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 77;
+	a := a + 63;
+	d := d - 77;
+	c := 70;
+	while c<d do
+	begin;
+		c := c + 3;
+		d := d / 46
+	end
+end
+
+Segment 223, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 37;
+	b := b - 75;
+	d := d - 77;
+	c := 70;
+	while c<=d do
+	begin;
+		d := d / 30;
+		c := c + 56
+	end
+end
+
+Segment 224, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 53;
+	a := a + 5;
+	d := d - 77;
+	c := 70;
+	while c<d do
+	begin;
+		c := c + 39;
+		d := d - 7
+	end
+end
+
+Segment 225, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 37;
+	c := 70;
+	d := d - 77;
+	k := 1;
+	l := n;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>d
+end
+until a>=b
+
+Segment 226, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		d := d / 58
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 227, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 52;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		c := c + 97;
+		d := d - 10
+	end
+	until c>d
+end
+until a>=b
+
+Segment 228, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		c := c * 14
+	end
+	until c>d;
+	k := k + 54;
+	l := l - 54
+end
+until a>b
+
+Segment 229, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	c := 70;
+	d := d - 77;
+	l := n;
+	k := 1;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>d
+end
+
+Segment 230, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 31;
+	c := 70;
+	d := d - 77;
+	while c<=d do
+	begin;
+		c := c + 97;
+		d := d - 10
+	end
+end
+until a>b
+
+Segment 231, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 20;
+	c := 70;
+	d := d - 77;
+	while c<=d do
+	begin;
+		d := d / 98
+	end
+end
+
+Segment 232, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 47;
+	c := 70;
+	d := d - 77;
+	while c<=d do
+	begin;
+		d := d - 89
+	end
+end
+
+Segment 233, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k * k;
+	b := l * l;
+	c := 70;
+	d := d - 77;
+	while c<d do
+	begin;
+		c := c * 10
+	end;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 234, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 96;
+	c := 70;
+	d := d - 77;
+	l := n;
+	k := 1;
+	while c<=d do
+	begin;
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+end
+
+Segment 235, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 79;
+	b := b / 12;
+	c := 70;
+	d := d - 77;
+	while c<d do
+	begin;
+		c := c + 4
+	end
+end
+until a>=b
+
+Segment 236, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 72;
+	a := a / 31;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		c := c / 60;
+		d := d / 86
+	end
+	until c>d
+end
+until a>=b
+
+Segment 237, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 20;
+	b := b / 37;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		d := d / 94;
+		c := c / 11
+	end
+	until c>d
+end
+until a>b
+
+Segment 238, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 6;
+	a := a - 46;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		c := c - 31;
+		d := d / 89
+	end
+	until c>=d
+end
+until a>b
+
+Segment 239, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 74;
+	b := b - 77;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		d := d / 55;
+		c := c - 41
+	end
+	until c>d
+end
+until a>=b
+
+Segment 240, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 87;
+	b := b + 89;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		c := c - 67;
+		d := d - 58
+	end
+	until c>d
+end
+until a>b
+
+Segment 241, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 16;
+	b := b / 45;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		c := c * 98;
+		d := d + 47
+	end
+	until c>d
+end
+until a>=b
+
+Segment 242, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 63;
+	a := a * 61;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		c := c * 7;
+		d := d / 84
+	end
+	until c>d
+end
+until a>b
+
+Segment 243, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 16;
+	a := a * 87;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		d := d / 59;
+		c := c * 82
+	end
+	until c>d
+end
+until a>b
+
+Segment 244, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 94;
+	b := b - 30;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		d := d * 12;
+		c := c * 40
+	end
+	until c>d
+end
+until a>b
+
+Segment 245, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 23;
+	a := a * 38;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		c := c * 87;
+		d := d - 10
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 246, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 70;
+	b := b + 88;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		d := d - 18;
+		c := c * 42
+	end
+	until c>d
+end
+until a>=b
+
+Segment 247, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 14;
+	a := a + 64;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		c := c + 73;
+		d := d + 13
+	end
+	until c>d
+end
+until a>=b
+
+Segment 248, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 22;
+	b := b / 12;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		d := d + 98;
+		c := c + 74
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 249, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 8;
+	a := a + 4;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		c := c + 39;
+		d := d / 48
+	end
+	until c>=d
+end
+until a>b
+
+Segment 250, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 15;
+	b := b - 94;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		d := d / 21;
+		c := c + 70
+	end
+	until c>=d
+end
+until a>b
+
+Segment 251, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 41;
+	a := a + 46;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		c := c + 21;
+		d := d - 26
+	end
+	until c>=d
+end
+until a>b
+
+Segment 252, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 32;
+	b := b / 58;
+	c := 70;
+	d := d - 77;
+	repeat
+	begin
+		d := d - 95;
+		c := c + 8
+	end
+	until c>d
+end
+
+Segment 253, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 9;
+	a := a - 76;
+	c := 70;
+	d := d - 77;
+	while c<=d do
+	begin;
+		c := c - 98;
+		d := d / 55
+	end
+end
+
+Segment 254, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 51;
+	b := b - 29;
+	c := 70;
+	d := d - 77;
+	while c<=d do
+	begin;
+		d := d / 94;
+		c := c - 16
+	end
+end
+
+Segment 255, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 23;
+	b := b + 65;
+	c := 70;
+	d := d - 77;
+	while c<d do
+	begin;
+		c := c - 6;
+		d := d - 16
+	end
+end
+
+Segment 256, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b + 88;
+	a := a * 74;
+	c := 70;
+	d := d - 77;
+	while c<d do
+	begin;
+		c := c * 15;
+		d := d + 94
+	end
+end
+
+Segment 257, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 2;
+	b := b / 86;
+	c := 70;
+	d := d - 77;
+	while c<=d do
+	begin;
+		d := d + 70;
+		c := c * 51
+	end
+end
+
+Segment 258, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 22;
+	a := a * 16;
+	c := 70;
+	d := d - 77;
+	while c<=d do
+	begin;
+		c := c * 12;
+		d := d / 8
+	end
+end
+
+Segment 259, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b * 61;
+	a := a * 84;
+	c := 70;
+	d := d - 77;
+	while c<d do
+	begin;
+		d := d / 53;
+		c := c * 61
+	end
+end
+
+Segment 260, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 4;
+	b := b - 86;
+	c := 70;
+	d := d - 77;
+	while c<=d do
+	begin;
+		d := d * 60;
+		c := c * 35
+	end
+end
+
+Segment 261, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 67;
+	a := a * 75;
+	c := 70;
+	d := d - 77;
+	while c<d do
+	begin;
+		c := c * 49;
+		d := d - 64
+	end
+end
+
+Segment 262, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 25;
+	b := b / 89;
+	c := 70;
+	d := d - 77;
+	while c<=d do
+	begin;
+		d := d - 48;
+		c := c * 13
+	end
+end
+
+Segment 263, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 54;
+	a := a + 99;
+	c := 70;
+	d := d - 77;
+	while c<=d do
+	begin;
+		c := c + 21;
+		d := d / 84
+	end
+end
+
+Segment 264, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 90;
+	b := b - 24;
+	c := 70;
+	d := d - 77;
+	while c<=d do
+	begin;
+		d := d / 40;
+		c := c + 83
+	end
+end
+
+Segment 265, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 81;
+	a := a + 21;
+	c := 70;
+	d := d - 77;
+	while c<d do
+	begin;
+		c := c + 50;
+		d := d - 23
+	end
+end
+
+Segment 266, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 77;
+	c := c + 61;
+	d := d - 61;
+	k := 1;
+	l := n;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>=d
+end
+until a>b
+
+Segment 267, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		d := d / 25
+	end
+	until c>=d
+end
+until a>b
+
+Segment 268, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 71;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		c := c + 97;
+		d := d - 10
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 269, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		c := c * 6
+	end
+	until c>=d;
+	k := k + 54;
+	l := l - 54
+end
+until a>b
+
+Segment 270, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	c := c + 61;
+	d := d - 61;
+	l := n;
+	k := 1;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>=d
+end
+
+Segment 271, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 58;
+	c := c + 61;
+	d := d - 61;
+	while c<d do
+	begin;
+		c := c + 97;
+		d := d - 10
+	end
+end
+until a>b
+
+Segment 272, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 1;
+	c := c + 61;
+	d := d - 61;
+	while c<d do
+	begin;
+		d := d / 76
+	end
+end
+
+Segment 273, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 85;
+	c := c + 61;
+	d := d - 61;
+	while c<d do
+	begin;
+		d := d - 32
+	end
+end
+
+Segment 274, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k * k;
+	b := l * l;
+	c := c + 61;
+	d := d - 61;
+	while c<d do
+	begin;
+		c := c * 19
+	end;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 275, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 57;
+	c := c + 61;
+	d := d - 61;
+	l := n;
+	k := 1;
+	while c<d do
+	begin;
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+end
+
+Segment 276, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 82;
+	b := b / 54;
+	c := c + 61;
+	d := d - 61;
+	while c<=d do
+	begin;
+		c := c + 40
+	end
+end
+until a>b
+
+Segment 277, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 44;
+	a := a / 30;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		c := c / 69;
+		d := d / 68
+	end
+	until c>=d
+end
+until a>b
+
+Segment 278, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 13;
+	b := b / 96;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		d := d / 57;
+		c := c / 55
+	end
+	until c>d
+end
+until a>=b
+
+Segment 279, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 16;
+	a := a - 98;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		c := c - 11;
+		d := d / 58
+	end
+	until c>=d
+end
+until a>b
+
+Segment 280, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 88;
+	b := b - 47;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		d := d / 14;
+		c := c - 82
+	end
+	until c>=d
+end
+until a>b
+
+Segment 281, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 75;
+	b := b + 90;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		c := c - 1;
+		d := d - 26
+	end
+	until c>d
+end
+until a>=b
+
+Segment 282, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 76;
+	b := b / 52;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		c := c * 89;
+		d := d + 83
+	end
+	until c>=d
+end
+until a>b
+
+Segment 283, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 76;
+	a := a * 5;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		c := c * 61;
+		d := d / 51
+	end
+	until c>d
+end
+until a>b
+
+Segment 284, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 100;
+	a := a * 22;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		d := d / 44;
+		c := c * 7
+	end
+	until c>=d
+end
+until a>b
+
+Segment 285, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 93;
+	b := b - 87;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		d := d * 79;
+		c := c * 83
+	end
+	until c>d
+end
+until a>b
+
+Segment 286, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 87;
+	a := a * 100;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		c := c * 4;
+		d := d - 26
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 287, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 64;
+	b := b + 74;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		d := d - 54;
+		c := c * 17
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 288, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 26;
+	a := a + 44;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		c := c + 8;
+		d := d + 64
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 289, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 64;
+	b := b / 54;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		d := d + 68;
+		c := c + 85
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 290, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 90;
+	a := a + 36;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		c := c + 39;
+		d := d / 22
+	end
+	until c>d
+end
+until a>b
+
+Segment 291, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 98;
+	b := b - 72;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		d := d / 31;
+		c := c + 46
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 292, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 96;
+	a := a + 26;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		c := c + 30;
+		d := d - 39
+	end
+	until c>=d
+end
+until a>b
+
+Segment 293, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a - 85;
+	b := b / 50;
+	c := c + 61;
+	d := d - 61;
+	repeat
+	begin
+		d := d - 68;
+		c := c + 62
+	end
+	until c>d
+end
+
+Segment 294, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 65;
+	a := a - 22;
+	c := c + 61;
+	d := d - 61;
+	while c<=d do
+	begin;
+		c := c - 41;
+		d := d / 24
+	end
+end
+
+Segment 295, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 75;
+	b := b - 9;
+	c := c + 61;
+	d := d - 61;
+	while c<d do
+	begin;
+		d := d / 15;
+		c := c - 13
+	end
+end
+
+Segment 296, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 31;
+	b := b + 14;
+	c := c + 61;
+	d := d - 61;
+	while c<=d do
+	begin;
+		c := c - 23;
+		d := d - 28
+	end
+end
+
+Segment 297, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b + 63;
+	a := a * 5;
+	c := c + 61;
+	d := d - 61;
+	while c<=d do
+	begin;
+		c := c * 1;
+		d := d + 14
+	end
+end
+
+Segment 298, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 55;
+	b := b / 24;
+	c := c + 61;
+	d := d - 61;
+	while c<=d do
+	begin;
+		d := d + 96;
+		c := c * 65
+	end
+end
+
+Segment 299, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 24;
+	a := a * 26;
+	c := c + 61;
+	d := d - 61;
+	while c<=d do
+	begin;
+		c := c * 72;
+		d := d / 81
+	end
+end
+
+Segment 300, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b * 1;
+	a := a * 70;
+	c := c + 61;
+	d := d - 61;
+	while c<=d do
+	begin;
+		d := d / 46;
+		c := c * 24
+	end
+end
+
+Segment 301, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 65;
+	b := b - 50;
+	c := c + 61;
+	d := d - 61;
+	while c<=d do
+	begin;
+		d := d * 63;
+		c := c * 21
+	end
+end
+
+Segment 302, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 30;
+	a := a * 44;
+	c := c + 61;
+	d := d - 61;
+	while c<=d do
+	begin;
+		c := c * 2;
+		d := d - 75
+	end
+end
+
+Segment 303, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 29;
+	b := b / 25;
+	c := c + 61;
+	d := d - 61;
+	while c<d do
+	begin;
+		d := d - 92;
+		c := c * 29
+	end
+end
+
+Segment 304, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 52;
+	a := a + 57;
+	c := c + 61;
+	d := d - 61;
+	while c<=d do
+	begin;
+		c := c + 36;
+		d := d / 40
+	end
+end
+
+Segment 305, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 31;
+	b := b - 82;
+	c := c + 61;
+	d := d - 61;
+	while c<d do
+	begin;
+		d := d / 62;
+		c := c + 17
+	end
+end
+
+Segment 306, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 19;
+	a := a + 91;
+	c := c + 61;
+	d := d - 61;
+	while c<=d do
+	begin;
+		c := c + 41;
+		d := d - 63
+	end
+end
+
+Segment 307, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 1;
+	d := d - 61;
+	c := c + 61;
+	k := 1;
+	l := n;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>d
+end
+until a>=b
+
+Segment 308, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		d := d / 32
+	end
+	until c>d
+end
+until a>=b
+
+Segment 309, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 10;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		c := c + 97;
+		d := d - 10
+	end
+	until c>d
+end
+until a>b
+
+Segment 310, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		c := c * 96
+	end
+	until c>=d;
+	k := k + 54;
+	l := l - 54
+end
+until a>b
+
+Segment 311, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	d := d - 61;
+	c := c + 61;
+	l := n;
+	k := 1;
+	repeat
+	begin
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+	until c>=d
+end
+
+Segment 312, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 44;
+	d := d - 61;
+	c := c + 61;
+	while c<=d do
+	begin;
+		c := c + 97;
+		d := d - 10
+	end
+end
+until a>=b
+
+Segment 313, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 24;
+	d := d - 61;
+	c := c + 61;
+	while c<=d do
+	begin;
+		d := d / 69
+	end
+end
+
+Segment 314, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 28;
+	d := d - 61;
+	c := c + 61;
+	while c<=d do
+	begin;
+		d := d - 3
+	end
+end
+
+Segment 315, complexity	n
+c := 1;
+d := n;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k * k;
+	b := l * l;
+	d := d - 61;
+	c := c + 61;
+	while c<=d do
+	begin;
+		c := c * 15
+	end;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 316, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 47;
+	d := d - 61;
+	c := c + 61;
+	l := n;
+	k := 1;
+	while c<d do
+	begin;
+		c := k * k;
+		d := l * l;
+		k := k + 54;
+		l := l - 54
+	end
+end
+
+Segment 317, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 95;
+	b := b / 76;
+	d := d - 61;
+	c := c + 61;
+	while c<d do
+	begin;
+		c := c + 45
+	end
+end
+until a>b
+
+Segment 318, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 1;
+	a := a / 31;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		c := c / 77;
+		d := d / 14
+	end
+	until c>d
+end
+until a>=b
+
+Segment 319, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 43;
+	b := b / 53;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		d := d / 33;
+		c := c / 75
+	end
+	until c>=d
+end
+until a>b
+
+Segment 320, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 3;
+	a := a - 1;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		c := c - 38;
+		d := d / 11
+	end
+	until c>=d
+end
+until a>b
+
+Segment 321, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 88;
+	b := b - 86;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		d := d / 80;
+		c := c - 31
+	end
+	until c>d
+end
+until a>=b
+
+Segment 322, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 59;
+	b := b + 41;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		c := c - 53;
+		d := d - 10
+	end
+	until c>d
+end
+until a>=b
+
+Segment 323, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 33;
+	b := b / 82;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		c := c * 15;
+		d := d + 44
+	end
+	until c>d
+end
+until a>=b
+
+Segment 324, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 96;
+	a := a * 54;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		c := c * 36;
+		d := d / 23
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 325, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 88;
+	a := a * 1;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		d := d / 78;
+		c := c * 91
+	end
+	until c>d
+end
+until a>b
+
+Segment 326, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 77;
+	b := b - 34;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		d := d * 28;
+		c := c * 41
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 327, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 66;
+	a := a * 76;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		c := c * 21;
+		d := d - 70
+	end
+	until c>=d
+end
+until a>b
+
+Segment 328, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 17;
+	b := b + 60;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		d := d - 96;
+		c := c * 97
+	end
+	until c>=d
+end
+until a>=b
+
+Segment 329, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 45;
+	a := a + 67;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		c := c + 55;
+		d := d + 48
+	end
+	until c>d
+end
+until a>=b
+
+Segment 330, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 42;
+	b := b / 69;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		d := d + 10;
+		c := c + 99
+	end
+	until c>d
+end
+until a>=b
+
+Segment 331, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 38;
+	a := a + 15;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		c := c + 40;
+		d := d / 48
+	end
+	until c>=d
+end
+until a>b
+
+Segment 332, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 37;
+	b := b - 82;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		d := d / 94;
+		c := c + 6
+	end
+	until c>d
+end
+until a>=b
+
+Segment 333, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 100;
+	a := a + 25;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		c := c + 81;
+		d := d - 54
+	end
+	until c>d
+end
+until a>=b
+
+Segment 334, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a - 56;
+	b := b / 39;
+	d := d - 61;
+	c := c + 61;
+	repeat
+	begin
+		d := d - 49;
+		c := c + 72
+	end
+	until c>d
+end
+
+Segment 335, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 77;
+	a := a - 4;
+	d := d - 61;
+	c := c + 61;
+	while c<=d do
+	begin;
+		c := c - 9;
+		d := d / 58
+	end
+end
+
+Segment 336, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a - 14;
+	b := b - 81;
+	d := d - 61;
+	c := c + 61;
+	while c<d do
+	begin;
+		d := d / 31;
+		c := c - 15
+	end
+end
+
+Segment 337, complexity	log(n)^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 56;
+	b := b + 84;
+	d := d - 61;
+	c := c + 61;
+	while c<d do
+	begin;
+		c := c - 92;
+		d := d - 88
+	end
+end
+
+Segment 338, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b + 56;
+	a := a * 13;
+	d := d - 61;
+	c := c + 61;
+	while c<=d do
+	begin;
+		c := c * 17;
+		d := d + 55
+	end
+end
+
+Segment 339, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 49;
+	b := b / 80;
+	d := d - 61;
+	c := c + 61;
+	while c<=d do
+	begin;
+		d := d + 14;
+		c := c * 79
+	end
+end
+
+Segment 340, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 48;
+	a := a * 2;
+	d := d - 61;
+	c := c + 61;
+	while c<d do
+	begin;
+		c := c * 62;
+		d := d / 19
+	end
+end
+
+Segment 341, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b * 8;
+	a := a * 50;
+	d := d - 61;
+	c := c + 61;
+	while c<d do
+	begin;
+		d := d / 92;
+		c := c * 7
+	end
+end
+
+Segment 342, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 61;
+	b := b - 55;
+	d := d - 61;
+	c := c + 61;
+	while c<=d do
+	begin;
+		d := d * 61;
+		c := c * 96
+	end
+end
+
+Segment 343, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 45;
+	a := a * 60;
+	d := d - 61;
+	c := c + 61;
+	while c<=d do
+	begin;
+		c := c * 46;
+		d := d - 1
+	end
+end
+
+Segment 344, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 38;
+	b := b / 91;
+	d := d - 61;
+	c := c + 61;
+	while c<=d do
+	begin;
+		d := d - 63;
+		c := c * 19
+	end
+end
+
+Segment 345, complexity	log(n)*log(log(n))
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 91;
+	a := a + 8;
+	d := d - 61;
+	c := c + 61;
+	while c<=d do
+	begin;
+		c := c + 66;
+		d := d / 11
+	end
+end
+
+Segment 346, complexity	n
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 32;
+	b := b - 93;
+	d := d - 61;
+	c := c + 61;
+	while c<=d do
+	begin;
+		d := d / 72;
+		c := c + 38
+	end
+end
+
+Segment 347, complexity	n^2
+c := 1;
+d := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 2;
+	a := a + 99;
+	d := d - 61;
+	c := c + 61;
+	while c<=d do
+	begin;
+		c := c + 11;
+		d := d - 4
+	end
+end
+
+Segment 348, complexity	n
+x := 0;
+a := 1;
+b := n;
+for i := b downto a do
+begin
+	x := x + 97 * z
+end;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := c + k;
+	k := k + 45
+end
+until c>d
+
+Segment 349, complexity	Sqrt(n!)
+x := 1;
+a := 1;
+b := n;
+for i := b downto a do
+begin
+	x := x * 97 * z
+end;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := c + k;
+	k := k + 81
+end
+until c>d
+
+Segment 350, complexity	n
+x := 0;
+a := 1;
+b := n;
+for i := a to b do
+begin
+	x := x + 97
+end;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := c + k;
+	k := k + 41
+end
+until c>d
+
+Segment 351, complexity	Sqrt(97^n)
+x := 1;
+a := 1;
+b := n;
+for i := b downto a do
+begin
+	x := x * 97
+end;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := c + k;
+	k := k + 45
+end
+until c>=d
+
+Segment 352, complexity	Sqrt(n)
+x := 0;
+k := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + k;
+	k := k + 1;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+for i := c to d do;
+
+Segment 353, complexity	Sqrt(n)
+x := 1;
+k := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + k;
+	k := k + 13;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+for i := d downto c do;
+
+Segment 354, complexity	Sqrt(n)
+x := 0;
+k := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + k;
+	k := k + 67;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+for i := d downto c do;
+
+Segment 355, complexity	Sqrt(n)
+x := 1;
+k := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + k;
+	k := k + 67;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+for i := c to d do;
+
+Segment 356, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + k0;
+	k0 := k0 + 83;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := k * k;
+	k := k + 33
+end
+until c>=d
+
+Segment 357, complexity	Sqrt(Sqrt(n!))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + k0;
+	k0 := k0 + 41;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := k * k;
+	k := k + 73
+end
+until c>=d
+
+Segment 358, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + k0;
+	k0 := k0 + 1;
+	x := x + 97
+end
+until a>b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := k * k;
+	k := k + 40
+end
+until c>=d
+
+Segment 359, complexity	Sqrt(97^Sqrt(n))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + k0;
+	k0 := k0 + 6;
+	x := x * 97
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := k * k;
+	k := k + 63
+end
+until c>=d
+
+Segment 360, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := k0 * k0;
+	k0 := k0 + 82;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := c + k;
+	k := k + 1
+end
+until c>d
+
+Segment 361, complexity	Sqrt(Sqrt(n!))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := k0 * k0;
+	k0 := k0 + 23;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := c + k;
+	k := k + 35
+end
+until c>d
+
+Segment 362, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := k0 * k0;
+	k0 := k0 + 43;
+	x := x + 97
+end
+until a>b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := c + k;
+	k := k + 29
+end
+until c>=d
+
+Segment 363, complexity	Sqrt(97^Sqrt(n))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := k0 * k0;
+	k0 := k0 + 72;
+	x := x * 97
+end
+until a>b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := c + k;
+	k := k + 80
+end
+until c>=d
+
+Segment 364, complexity	n
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := k0 * k0;
+	k0 := k0 + 62;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+k := 1;
+l := n;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>=d
+
+Segment 365, complexity	Sqrt(n)!
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := k0 * k0;
+	k0 := k0 + 93;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+k := 1;
+l := n;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>d
+
+Segment 366, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := k0 * k0;
+	k0 := k0 + 50;
+	x := x + 97
+end
+until a>b;
+d := x;
+k := 1;
+l := n;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>d
+
+Segment 367, complexity	Sqrt(n)
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := k0 * k0;
+	k0 := k0 + 66;
+	x := x * 97
+end
+until a>b;
+d := x;
+k := 1;
+l := n;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>=d
+
+Segment 368, complexity	n
+x := 0;
+k0 := 1;
+l := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := k0 * k0;
+	b := l * l;
+	x := x + 97 * z;
+	k0 := k0 + 54;
+	l := l - 54
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := k * k;
+	k := k + 51
+end
+until c>=d
+
+Segment 369, complexity	Sqrt(n!)
+x := 1;
+k0 := 1;
+l := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := k0 * k0;
+	b := l * l;
+	x := x * 97 * z;
+	k0 := k0 + 54;
+	l := l - 54
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := k * k;
+	k := k + 92
+end
+until c>=d
+
+Segment 370, complexity	n
+x := 0;
+k0 := 1;
+l := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := k0 * k0;
+	b := l * l;
+	x := x + 97;
+	k0 := k0 + 54;
+	l := l - 54
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := k * k;
+	k := k + 41
+end
+until c>=d
+
+Segment 371, complexity	Sqrt(97^n)
+x := 1;
+k0 := 1;
+l := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := k0 * k0;
+	b := l * l;
+	x := x * 97;
+	k0 := k0 + 54;
+	l := l - 54
+end
+until a>b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	c := k * k;
+	k := k + 52
+end
+until c>=d
+
+Segment 372, complexity	n
+x := 0;
+k := 1;
+l := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	x := x + 97 * z;
+	k := k + 54;
+	l := l - 54
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 36
+end
+until c>d
+
+Segment 373, complexity	n
+x := 1;
+k := 1;
+l := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	x := x * 97 * z;
+	k := k + 54;
+	l := l - 54
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 27
+end
+until c>d
+
+Segment 374, complexity	n
+x := 0;
+k := 1;
+l := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	x := x + 97;
+	k := k + 54;
+	l := l - 54
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 94
+end
+until c>d
+
+Segment 375, complexity	n
+x := 1;
+k := 1;
+l := n;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	x := x * 97;
+	k := k + 54;
+	l := l - 54
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 65
+end
+until c>=d
+
+Segment 376, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 97;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+k := 1;
+l := n;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>=d
+
+Segment 377, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 89;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+k := 1;
+l := n;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>d
+
+Segment 378, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 11;
+	x := x + 97
+end
+until a>b;
+d := x;
+k := 1;
+l := n;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>=d
+
+Segment 379, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 36;
+	x := x * 97
+end
+until a>=b;
+d := x;
+k := 1;
+l := n;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>d
+
+Segment 380, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 93;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 97;
+	d := d - 10
+end
+until c>d
+
+Segment 381, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 48;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 97;
+	d := d - 10
+end
+until c>d
+
+Segment 382, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 23;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 97;
+	d := d - 10
+end
+until c>d
+
+Segment 383, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 47;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 97;
+	d := d - 10
+end
+until c>d
+
+Segment 384, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 33
+end
+until c>=d
+
+Segment 385, complexity	n*log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 41
+end
+until c>=d
+
+Segment 386, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 56
+end
+until c>=d
+
+Segment 387, complexity	n
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 14
+end
+until c>=d
+
+Segment 388, complexity	n^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 71
+end
+until c>=d
+
+Segment 389, complexity	n!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 82
+end
+until c>=d
+
+Segment 390, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 24
+end
+until c>d
+
+Segment 391, complexity	97^n
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 97;
+	b := b - 10;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 43
+end
+until c>d
+
+Segment 392, complexity	n^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 2;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 97;
+	d := d - 10
+end
+until c>=d
+
+Segment 393, complexity	n!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 37;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 97;
+	d := d - 10
+end
+until c>d
+
+Segment 394, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 64;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 97;
+	d := d - 10
+end
+until c>d
+
+Segment 395, complexity	97^n
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 15;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 97;
+	d := d - 10
+end
+until c>=d
+
+Segment 396, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 59;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 74;
+	c := c + k
+end
+until c>d
+
+Segment 397, complexity	Sqrt(n!)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 20;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 86;
+	c := c + k
+end
+until c>=d
+
+Segment 398, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 43;
+	x := x + 97
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 64;
+	c := c + k
+end
+until c>=d
+
+Segment 399, complexity	Sqrt(97^n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 76;
+	x := x * 97
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 64;
+	c := c + k
+end
+until c>=d
+
+Segment 400, complexity	n
+x := 0;
+k := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k := k + 41;
+	a := a + k;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 41
+end
+until c>=d
+
+Segment 401, complexity	Sqrt(n)!
+x := 1;
+k := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k := k + 60;
+	a := a + k;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 90
+end
+until c>d
+
+Segment 402, complexity	Sqrt(n)
+x := 0;
+k := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k := k + 97;
+	a := a + k;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 91
+end
+until c>=d
+
+Segment 403, complexity	Sqrt(n)
+x := 1;
+k := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k := k + 83;
+	a := a + k;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 75
+end
+until c>d
+
+Segment 404, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k0 := k0 + 11;
+	a := a + k0;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 76;
+	c := k * k
+end
+until c>=d
+
+Segment 405, complexity	Sqrt(Sqrt(n!))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k0 := k0 + 98;
+	a := a + k0;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 34;
+	c := k * k
+end
+until c>d
+
+Segment 406, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k0 := k0 + 34;
+	a := a + k0;
+	x := x + 97
+end
+until a>b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 18;
+	c := k * k
+end
+until c>=d
+
+Segment 407, complexity	Sqrt(97^Sqrt(n))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k0 := k0 + 68;
+	a := a + k0;
+	x := x * 97
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 34;
+	c := k * k
+end
+until c>=d
+
+Segment 408, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k0 := k0 + 83;
+	a := k0 * k0;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 87;
+	c := c + k
+end
+until c>d
+
+Segment 409, complexity	Sqrt(Sqrt(n!))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k0 := k0 + 72;
+	a := k0 * k0;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 40;
+	c := c + k
+end
+until c>d
+
+Segment 410, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k0 := k0 + 21;
+	a := k0 * k0;
+	x := x + 97
+end
+until a>b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 3;
+	c := c + k
+end
+until c>d
+
+Segment 411, complexity	Sqrt(97^Sqrt(n))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k0 := k0 + 88;
+	a := k0 * k0;
+	x := x * 97
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 61;
+	c := c + k
+end
+until c>d
+
+Segment 412, complexity	Sqrt(n)
+x := 0;
+k := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k := k + 34;
+	a := k * k;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 40
+end
+until c>d
+
+Segment 413, complexity	Sqrt(n)
+x := 1;
+k := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k := k + 7;
+	a := k * k;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 20
+end
+until c>d
+
+Segment 414, complexity	Sqrt(n)
+x := 0;
+k := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k := k + 80;
+	a := k * k;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 61
+end
+until c>d
+
+Segment 415, complexity	Sqrt(n)
+x := 1;
+k := 0;
+a := 1;
+b := n;
+repeat
+begin
+	k := k + 72;
+	a := k * k;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 70
+end
+until c>=d
+
+Segment 416, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 17;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 43;
+	c := k * k
+end
+until c>=d
+
+Segment 417, complexity	Sqrt(log(n!))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 43;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 47;
+	c := k * k
+end
+until c>=d
+
+Segment 418, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 14;
+	x := x + 97
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 67;
+	c := k * k
+end
+until c>d
+
+Segment 419, complexity	Sqrt(97^log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 27;
+	x := x * 97
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+repeat
+begin
+	k := k + 22;
+	c := k * k
+end
+until c>=d
+
+Segment 420, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 16;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+l := n;
+k := 1;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>d
+
+Segment 421, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 5;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+l := n;
+k := 1;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>d
+
+Segment 422, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 96;
+	x := x + 97
+end
+until a>b;
+d := x;
+l := n;
+k := 1;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>=d
+
+Segment 423, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 99;
+	x := x * 97
+end
+until a>=b;
+d := x;
+l := n;
+k := 1;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>d
+
+Segment 424, complexity	n
+x := 0;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	x := x + 97 * z;
+	k := k + 54;
+	l := l - 54
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 39
+end
+until c>d
+
+Segment 425, complexity	n
+x := 1;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	x := x * 97 * z;
+	k := k + 54;
+	l := l - 54
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 98
+end
+until c>=d
+
+Segment 426, complexity	n
+x := 0;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	x := x + 97;
+	k := k + 54;
+	l := l - 54
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 61
+end
+until c>=d
+
+Segment 427, complexity	n
+x := 1;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	x := x * 97;
+	k := k + 54;
+	l := l - 54
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 98
+end
+until c>d
+
+Segment 428, complexity	n
+x := 0;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	x := x + 97 * z;
+	k := k + 54;
+	l := l - 54
+end
+until a>=b;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 97;
+	d := d - 10
+end
+
+Segment 429, complexity	n
+x := 1;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	x := x * 97 * z;
+	k := k + 54;
+	l := l - 54
+end
+until a>b;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 97;
+	d := d - 10
+end
+
+Segment 430, complexity	n
+x := 0;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	x := x + 97;
+	k := k + 54;
+	l := l - 54
+end
+until a>b;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 97;
+	d := d - 10
+end
+
+Segment 431, complexity	n
+x := 1;
+l := n;
+k := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := k * k;
+	b := l * l;
+	x := x * 97;
+	k := k + 54;
+	l := l - 54
+end
+until a>b;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 97;
+	d := d - 10
+end
+
+Segment 432, complexity	n^2
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	x := x + 97 * z
+end;
+d := x;
+l := n;
+k := 1;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>d
+
+Segment 433, complexity	n!
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	x := x * 97 * z
+end;
+d := x;
+l := n;
+k := 1;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>d
+
+Segment 434, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	x := x + 97
+end;
+d := x;
+l := n;
+k := 1;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>d
+
+Segment 435, complexity	97^n
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	x := x * 97
+end;
+d := x;
+l := n;
+k := 1;
+c := 1;
+repeat
+begin
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+until c>=d
+
+Segment 436, complexity	n^2
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 30
+end
+until c>d
+
+Segment 437, complexity	n!
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 75
+end
+until c>d
+
+Segment 438, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	x := x + 97
+end;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 90
+end
+until c>d
+
+Segment 439, complexity	97^n
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 97;
+	b := b - 10;
+	x := x * 97
+end;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 56
+end
+until c>d
+
+Segment 440, complexity	n^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 67;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 97;
+	d := d - 10
+end
+
+Segment 441, complexity	n!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 6;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 97;
+	d := d - 10
+end
+
+Segment 442, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 26;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 97;
+	d := d - 10
+end
+
+Segment 443, complexity	97^n
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 34;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 97;
+	d := d - 10
+end
+
+Segment 444, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 53;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	k := k + 24
+end
+
+Segment 445, complexity	Sqrt(n!)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 82;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	k := k + 83
+end
+
+Segment 446, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 86;
+	x := x + 97
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	k := k + 24
+end
+
+Segment 447, complexity	Sqrt(97^n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 84;
+	x := x * 97
+end
+until a>=b;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	k := k + 37
+end
+
+Segment 448, complexity	n
+x := 0;
+k := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k * k;
+	k := k + 36;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 3
+end
+until c>d
+
+Segment 449, complexity	Sqrt(n)!
+x := 1;
+k := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k * k;
+	k := k + 10;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 22
+end
+until c>=d
+
+Segment 450, complexity	Sqrt(n)
+x := 0;
+k := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k * k;
+	k := k + 45;
+	x := x + 97
+end;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 38
+end
+until c>d
+
+Segment 451, complexity	Sqrt(n)
+x := 1;
+k := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k * k;
+	k := k + 67;
+	x := x * 97
+end;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 60
+end
+until c>d
+
+Segment 452, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k0 * k0;
+	k0 := k0 + 42;
+	x := x + 97 * z
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	c := c + k;
+	k := k + 77
+end
+
+Segment 453, complexity	Sqrt(Sqrt(n!))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k0 * k0;
+	k0 := k0 + 51;
+	x := x * 97 * z
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	c := c + k;
+	k := k + 1
+end
+
+Segment 454, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k0 * k0;
+	k0 := k0 + 8;
+	x := x + 97
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	c := c + k;
+	k := k + 82
+end
+
+Segment 455, complexity	Sqrt(97^Sqrt(n))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k0 * k0;
+	k0 := k0 + 32;
+	x := x * 97
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	c := c + k;
+	k := k + 36
+end
+
+Segment 456, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + k0;
+	k0 := k0 + 72;
+	x := x + 97 * z
+end;
+d := x;
+k := 0;
+c := 1;
+while c<d do
+begin;
+	c := k * k;
+	k := k + 33
+end
+
+Segment 457, complexity	Sqrt(Sqrt(n!))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + k0;
+	k0 := k0 + 13;
+	x := x * 97 * z
+end;
+d := x;
+k := 0;
+c := 1;
+while c<d do
+begin;
+	c := k * k;
+	k := k + 93
+end
+
+Segment 458, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + k0;
+	k0 := k0 + 53;
+	x := x + 97
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	k := k + 41
+end
+
+Segment 459, complexity	Sqrt(97^Sqrt(n))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + k0;
+	k0 := k0 + 18;
+	x := x * 97
+end;
+d := x;
+k := 0;
+c := 1;
+while c<d do
+begin;
+	c := k * k;
+	k := k + 2
+end
+
+Segment 460, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + k0;
+	k0 := k0 + 1;
+	x := x + 97 * z
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	k := k + 93;
+	c := k * k
+end
+
+Segment 461, complexity	Sqrt(Sqrt(n!))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + k0;
+	k0 := k0 + 53;
+	x := x * 97 * z
+end;
+d := x;
+k := 0;
+c := 1;
+while c<d do
+begin;
+	k := k + 49;
+	c := k * k
+end
+
+Segment 462, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + k0;
+	k0 := k0 + 7;
+	x := x + 97
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	k := k + 49;
+	c := k * k
+end
+
+Segment 463, complexity	Sqrt(97^Sqrt(n))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + k0;
+	k0 := k0 + 41;
+	x := x * 97
+end;
+d := x;
+k := 0;
+c := 1;
+while c<d do
+begin;
+	k := k + 57;
+	c := k * k
+end
+
+Segment 464, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	k0 := k0 + 82;
+	a := k0 * k0;
+	x := x + 97 * z
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	c := c + k;
+	k := k + 49
+end
+
+Segment 465, complexity	Sqrt(Sqrt(n!))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	k0 := k0 + 23;
+	a := k0 * k0;
+	x := x * 97 * z
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	c := c + k;
+	k := k + 56
+end
+
+Segment 466, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	k0 := k0 + 17;
+	a := k0 * k0;
+	x := x + 97
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	c := c + k;
+	k := k + 98
+end
+
+Segment 467, complexity	Sqrt(97^Sqrt(n))
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	k0 := k0 + 73;
+	a := k0 * k0;
+	x := x * 97
+end;
+d := x;
+k := 0;
+c := 1;
+while c<d do
+begin;
+	c := c + k;
+	k := k + 46
+end
+
+Segment 468, complexity	n
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	k0 := k0 + 93;
+	a := k0 * k0;
+	x := x + 97 * z
+end;
+d := x;
+k := 1;
+l := n;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 469, complexity	Sqrt(n)!
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	k0 := k0 + 23;
+	a := k0 * k0;
+	x := x * 97 * z
+end;
+d := x;
+k := 1;
+l := n;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 470, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	k0 := k0 + 54;
+	a := k0 * k0;
+	x := x + 97
+end;
+d := x;
+k := 1;
+l := n;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 471, complexity	Sqrt(n)
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	k0 := k0 + 48;
+	a := k0 * k0;
+	x := x * 97
+end;
+d := x;
+k := 1;
+l := n;
+c := 1;
+while c<d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 472, complexity	n
+x := 0;
+k0 := 1;
+l := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k0 * k0;
+	b := l * l;
+	x := x + 97 * z;
+	k0 := k0 + 54;
+	l := l - 54
+end;
+d := x;
+k := 0;
+c := 1;
+while c<d do
+begin;
+	k := k + 93;
+	c := k * k
+end
+
+Segment 473, complexity	Sqrt(n!)
+x := 1;
+k0 := 1;
+l := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k0 * k0;
+	b := l * l;
+	x := x * 97 * z;
+	k0 := k0 + 54;
+	l := l - 54
+end;
+d := x;
+k := 0;
+c := 1;
+while c<d do
+begin;
+	k := k + 82;
+	c := k * k
+end
+
+Segment 474, complexity	n
+x := 0;
+k0 := 1;
+l := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k0 * k0;
+	b := l * l;
+	x := x + 97;
+	k0 := k0 + 54;
+	l := l - 54
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	k := k + 4;
+	c := k * k
+end
+
+Segment 475, complexity	Sqrt(97^n)
+x := 1;
+k0 := 1;
+l := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k0 * k0;
+	b := l * l;
+	x := x * 97;
+	k0 := k0 + 54;
+	l := l - 54
+end;
+d := x;
+k := 0;
+c := 1;
+while c<d do
+begin;
+	k := k + 68;
+	c := k * k
+end
+
+Segment 476, complexity	n
+x := 0;
+k0 := 1;
+l := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k0 * k0;
+	b := l * l;
+	x := x + 97 * z;
+	k0 := k0 + 54;
+	l := l - 54
+end;
+d := x;
+k := 0;
+c := 1;
+while c<d do
+begin;
+	k := k + 88;
+	c := c + k
+end
+
+Segment 477, complexity	Sqrt(n!)
+x := 1;
+k0 := 1;
+l := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k0 * k0;
+	b := l * l;
+	x := x * 97 * z;
+	k0 := k0 + 54;
+	l := l - 54
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	k := k + 32;
+	c := c + k
+end
+
+Segment 478, complexity	n
+x := 0;
+k0 := 1;
+l := n;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k0 * k0;
+	b := l * l;
+	x := x + 97;
+	k0 := k0 + 54;
+	l := l - 54
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	k := k + 100;
+	c := c + k
+end
+
+Segment 479, complexity	Sqrt(97^n)
+x := 1;
+k0 := 1;
+l := n;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k0 * k0;
+	b := l * l;
+	x := x * 97;
+	k0 := k0 + 54;
+	l := l - 54
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	k := k + 28;
+	c := c + k
+end
+
+Segment 480, complexity	n
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	k0 := k0 + 88;
+	a := a + k0;
+	x := x + 97 * z
+end;
+d := x;
+k := 1;
+l := n;
+c := 1;
+while c<d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 481, complexity	Sqrt(n)!
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	k0 := k0 + 51;
+	a := a + k0;
+	x := x * 97 * z
+end;
+d := x;
+k := 1;
+l := n;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 482, complexity	Sqrt(n)
+x := 0;
+k0 := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	k0 := k0 + 73;
+	a := a + k0;
+	x := x + 97
+end;
+d := x;
+k := 1;
+l := n;
+c := 1;
+while c<d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 483, complexity	Sqrt(n)
+x := 1;
+k0 := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	k0 := k0 + 44;
+	a := a + k0;
+	x := x * 97
+end;
+d := x;
+k := 1;
+l := n;
+c := 1;
+while c<d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 484, complexity	Sqrt(n)
+x := 0;
+k := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	k := k + 39;
+	a := a + k;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 53
+end
+
+Segment 485, complexity	Sqrt(n)
+x := 1;
+k := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	k := k + 87;
+	a := a + k;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 42
+end
+
+Segment 486, complexity	Sqrt(n)
+x := 0;
+k := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	k := k + 86;
+	a := a + k;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 5
+end
+
+Segment 487, complexity	Sqrt(n)
+x := 1;
+k := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	k := k + 19;
+	a := a + k;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d / 73
+end
+
+Segment 488, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 41;
+	x := x + 97 * z
+end;
+d := x;
+k := 0;
+c := 1;
+while c<d do
+begin;
+	k := k + 45;
+	c := c + k
+end
+
+Segment 489, complexity	Sqrt(log(n!))
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 66;
+	x := x * 97 * z
+end;
+d := x;
+k := 0;
+c := 1;
+while c<d do
+begin;
+	k := k + 33;
+	c := c + k
+end
+
+Segment 490, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 1;
+	x := x + 97
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	k := k + 41;
+	c := c + k
+end
+
+Segment 491, complexity	Sqrt(97^log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 91;
+	x := x * 97
+end;
+d := x;
+k := 0;
+c := 1;
+while c<=d do
+begin;
+	k := k + 41;
+	c := c + k
+end
+
+Segment 492, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 34;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d - 75
+end
+
+Segment 493, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 34;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d - 57
+end
+
+Segment 494, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 52;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d - 95
+end
+
+Segment 495, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 57;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d - 63
+end
+
+Segment 496, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 34;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 38
+end
+
+Segment 497, complexity	n*log(n)
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 15;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 76
+end
+
+Segment 498, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 76;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d / 72
+end
+
+Segment 499, complexity	n
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 56;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 43
+end
+
+Segment 500, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 59;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 93
+end
+
+Segment 501, complexity	n*log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 49;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 95
+end
+
+Segment 502, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 73;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 75
+end
+
+Segment 503, complexity	n
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 77;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 35
+end
+
+Segment 504, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 22;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d - 52
+end
+
+Segment 505, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 56;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d - 83
+end
+
+Segment 506, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 2;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d - 89
+end
+
+Segment 507, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 63;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d - 22
+end
+
+Segment 508, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 36;
+	x := x + 97 * z
+end;
+d := x;
+l := n;
+k := 1;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 509, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 79;
+	x := x * 97 * z
+end;
+d := x;
+l := n;
+k := 1;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 510, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 4;
+	x := x + 97
+end;
+d := x;
+l := n;
+k := 1;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 511, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 56;
+	x := x * 97
+end;
+d := x;
+l := n;
+k := 1;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 512, complexity	n
+x := 0;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k * k;
+	b := l * l;
+	x := x + 97 * z;
+	k := k + 54;
+	l := l - 54
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c * 9
+end
+
+Segment 513, complexity	n
+x := 1;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k * k;
+	b := l * l;
+	x := x * 97 * z;
+	k := k + 54;
+	l := l - 54
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c * 45
+end
+
+Segment 514, complexity	n
+x := 0;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k * k;
+	b := l * l;
+	x := x + 97;
+	k := k + 54;
+	l := l - 54
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 21
+end
+
+Segment 515, complexity	n
+x := 1;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k * k;
+	b := l * l;
+	x := x * 97;
+	k := k + 54;
+	l := l - 54
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 17
+end
+
+Segment 516, complexity	n
+x := 0;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k * k;
+	b := l * l;
+	x := x + 97 * z;
+	k := k + 54;
+	l := l - 54
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 52
+end
+
+Segment 517, complexity	n
+x := 1;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := k * k;
+	b := l * l;
+	x := x * 97 * z;
+	k := k + 54;
+	l := l - 54
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 65
+end
+
+Segment 518, complexity	n
+x := 0;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k * k;
+	b := l * l;
+	x := x + 97;
+	k := k + 54;
+	l := l - 54
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 2
+end
+
+Segment 519, complexity	n
+x := 1;
+l := n;
+k := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := k * k;
+	b := l * l;
+	x := x * 97;
+	k := k + 54;
+	l := l - 54
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 5
+end
+
+Segment 520, complexity	n^2
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 4;
+	x := x + 97 * z
+end;
+d := x;
+l := n;
+k := 1;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 521, complexity	n!
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 55;
+	x := x * 97 * z
+end;
+d := x;
+l := n;
+k := 1;
+c := 1;
+while c<=d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 522, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 78;
+	x := x + 97
+end;
+d := x;
+l := n;
+k := 1;
+c := 1;
+while c<d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 523, complexity	97^n
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 67;
+	x := x * 97
+end;
+d := x;
+l := n;
+k := 1;
+c := 1;
+while c<d do
+begin;
+	c := k * k;
+	d := l * l;
+	k := k + 54;
+	l := l - 54
+end
+
+Segment 524, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 51;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+repeat
+begin
+	c := c / 39;
+	d := d / 98
+end
+until c>d
+
+Segment 525, complexity	n*log(n)
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 29;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+repeat
+begin
+	c := c / 17;
+	d := d / 8
+end
+until c>=d
+
+Segment 526, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 85;
+	x := x + 97
+end;
+d := x;
+c := 1;
+repeat
+begin
+	c := c / 88;
+	d := d / 79
+end
+until c>d
+
+Segment 527, complexity	n
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 44;
+	x := x * 97
+end;
+d := x;
+c := 1;
+repeat
+begin
+	c := c / 27;
+	d := d / 30
+end
+until c>=d
+
+Segment 528, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 90;
+	b := b / 28;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 70
+end
+
+Segment 529, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 74;
+	b := b / 87;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 13
+end
+
+Segment 530, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 14;
+	b := b / 20;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 44
+end
+
+Segment 531, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 7;
+	b := b / 34;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 56
+end
+
+Segment 532, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 65;
+	b := b / 57;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 93;
+	c := c / 26
+end
+until c>=d
+
+Segment 533, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 19;
+	b := b / 30;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 94;
+	c := c / 57
+end
+until c>d
+
+Segment 534, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 10;
+	b := b / 61;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 35;
+	c := c / 82
+end
+until c>d
+
+Segment 535, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a / 15;
+	b := b / 69;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 51;
+	c := c / 46
+end
+until c>=d
+
+Segment 536, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 52;
+	a := a / 89;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c / 73;
+	d := d / 5
+end
+until c>d
+
+Segment 537, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 29;
+	a := a / 30;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c / 15;
+	d := d / 63
+end
+until c>d
+
+Segment 538, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 56;
+	a := a / 39;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c / 9;
+	d := d / 92
+end
+until c>=d
+
+Segment 539, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 7;
+	a := a / 65;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c / 86;
+	d := d / 39
+end
+until c>d
+
+Segment 540, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 1;
+	a := a / 84;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 28;
+	d := d / 60
+end
+until c>d
+
+Segment 541, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 38;
+	a := a / 35;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 60;
+	d := d / 18
+end
+until c>=d
+
+Segment 542, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 43;
+	a := a / 37;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 83;
+	d := d / 37
+end
+until c>d
+
+Segment 543, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 23;
+	a := a / 92;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 33;
+	d := d / 24
+end
+until c>=d
+
+Segment 544, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 65;
+	b := b / 22;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 46;
+	c := c / 26
+end
+until c>=d
+
+Segment 545, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 70;
+	b := b / 83;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 21;
+	c := c / 99
+end
+until c>d
+
+Segment 546, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 55;
+	b := b / 70;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 72;
+	c := c / 88
+end
+until c>d
+
+Segment 547, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 75;
+	b := b / 65;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 31;
+	c := c / 9
+end
+until c>=d
+
+Segment 548, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 31;
+	b := b / 21;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 18;
+	c := c - 94
+end
+until c>d
+
+Segment 549, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 98;
+	b := b / 70;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 11;
+	c := c - 92
+end
+until c>d
+
+Segment 550, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 52;
+	b := b / 2;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 32;
+	c := c - 75
+end
+until c>d
+
+Segment 551, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 67;
+	b := b / 20;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 66;
+	c := c - 83
+end
+until c>=d
+
+Segment 552, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 7;
+	a := a - 9;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 60;
+	d := d / 32
+end
+until c>d
+
+Segment 553, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 47;
+	a := a - 20;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 69;
+	d := d / 52
+end
+until c>=d
+
+Segment 554, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 70;
+	a := a - 78;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 4;
+	d := d / 32
+end
+until c>=d
+
+Segment 555, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 11;
+	a := a - 45;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 26;
+	d := d / 69
+end
+until c>d
+
+Segment 556, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 12;
+	a := a - 64;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 93;
+	d := d - 17
+end
+until c>=d
+
+Segment 557, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 4;
+	a := a - 1;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 55;
+	d := d - 46
+end
+until c>=d
+
+Segment 558, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 36;
+	a := a - 30;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 72;
+	d := d - 100
+end
+until c>=d
+
+Segment 559, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 86;
+	a := a - 19;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 85;
+	d := d - 55
+end
+until c>d
+
+Segment 560, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 86;
+	b := b - 17;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 33;
+	c := c - 65
+end
+until c>d
+
+Segment 561, complexity	n*log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 65;
+	b := b - 53;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 59;
+	c := c - 65
+end
+until c>=d
+
+Segment 562, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 95;
+	b := b - 57;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 74;
+	c := c - 20
+end
+until c>d
+
+Segment 563, complexity	n
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 55;
+	b := b - 28;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 58;
+	c := c - 94
+end
+until c>=d
+
+Segment 564, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 21;
+	b := b - 81;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 39;
+	d := d + 58
+end
+until c>d
+
+Segment 565, complexity	n*log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 22;
+	b := b - 24;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 95;
+	d := d + 31
+end
+until c>d
+
+Segment 566, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 83;
+	b := b - 73;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 32;
+	d := d + 98
+end
+until c>d
+
+Segment 567, complexity	n
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a - 78;
+	b := b - 78;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 14;
+	d := d + 12
+end
+until c>=d
+
+Segment 568, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 67;
+	b := b + 51;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 10;
+	d := d - 22
+end
+until c>d
+
+Segment 569, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 60;
+	b := b + 42;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 83;
+	d := d - 11
+end
+until c>d
+
+Segment 570, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 10;
+	b := b + 58;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 16;
+	d := d - 32
+end
+until c>d
+
+Segment 571, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 95;
+	b := b + 41;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c - 48;
+	d := d - 61
+end
+until c>d
+
+Segment 572, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 85;
+	b := b + 95;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 39;
+	d := d / 74
+end
+until c>d
+
+Segment 573, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 19;
+	b := b + 71;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 21;
+	d := d / 30
+end
+until c>=d
+
+Segment 574, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 30;
+	b := b + 60;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 54;
+	d := d / 15
+end
+until c>d
+
+Segment 575, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 40;
+	b := b + 85;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 43;
+	d := d / 6
+end
+until c>=d
+
+Segment 576, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 34;
+	b := b / 11;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 65;
+	d := d + 81
+end
+until c>d
+
+Segment 577, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 53;
+	b := b / 22;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 100;
+	d := d + 53
+end
+until c>d
+
+Segment 578, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 100;
+	b := b / 32;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 36;
+	d := d + 74
+end
+until c>=d
+
+Segment 579, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 43;
+	b := b / 89;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 73;
+	d := d + 38
+end
+until c>=d
+
+Segment 580, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 18;
+	b := b / 47;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 79;
+	c := c * 59
+end
+until c>=d
+
+Segment 581, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 68;
+	b := b / 12;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 18;
+	c := c * 65
+end
+until c>=d
+
+Segment 582, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 77;
+	b := b / 9;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 89;
+	c := c * 94
+end
+until c>d
+
+Segment 583, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 11;
+	b := b / 36;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 34;
+	c := c * 39
+end
+until c>=d
+
+Segment 584, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 34;
+	a := a * 86;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 64;
+	d := d / 29
+end
+until c>d
+
+Segment 585, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 47;
+	a := a * 6;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 95;
+	d := d / 63
+end
+until c>d
+
+Segment 586, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 88;
+	a := a * 46;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 21;
+	d := d / 44
+end
+until c>d
+
+Segment 587, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 94;
+	a := a * 31;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 95;
+	d := d / 63
+end
+until c>d
+
+Segment 588, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 100;
+	a := a * 62;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d * 94;
+	c := c * 14
+end
+until c>d
+
+Segment 589, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 74;
+	a := a * 82;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d * 2;
+	c := c * 60
+end
+until c>=d
+
+Segment 590, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 81;
+	a := a * 87;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d * 52;
+	c := c * 9
+end
+until c>=d
+
+Segment 591, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 87;
+	a := a * 9;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d * 11;
+	c := c * 90
+end
+until c>=d
+
+Segment 592, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 42;
+	a := a * 43;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 15;
+	c := c * 18
+end
+until c>d
+
+Segment 593, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 24;
+	a := a * 90;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 43;
+	c := c * 48
+end
+until c>=d
+
+Segment 594, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 36;
+	a := a * 29;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 84;
+	c := c * 78
+end
+until c>d
+
+Segment 595, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 19;
+	a := a * 98;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 46;
+	c := c * 73
+end
+until c>d
+
+Segment 596, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 74;
+	a := a * 99;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 73;
+	d := d - 41
+end
+until c>d
+
+Segment 597, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 80;
+	a := a * 10;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 59;
+	d := d - 75
+end
+until c>=d
+
+Segment 598, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 98;
+	a := a * 88;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 88;
+	d := d - 60
+end
+until c>=d
+
+Segment 599, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b * 31;
+	a := a * 74;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 81;
+	d := d - 84
+end
+until c>d
+
+Segment 600, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 12;
+	b := b - 62;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d * 78;
+	c := c * 19
+end
+until c>d
+
+Segment 601, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 89;
+	b := b - 27;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d * 51;
+	c := c * 39
+end
+until c>=d
+
+Segment 602, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 61;
+	b := b - 10;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d * 90;
+	c := c * 23
+end
+until c>=d
+
+Segment 603, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 42;
+	b := b - 22;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d * 24;
+	c := c * 31
+end
+until c>=d
+
+Segment 604, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 87;
+	b := b - 10;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 5;
+	c := c * 91
+end
+until c>d
+
+Segment 605, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 84;
+	b := b - 73;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 25;
+	c := c * 84
+end
+until c>=d
+
+Segment 606, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 10;
+	b := b - 57;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 4;
+	c := c * 66
+end
+until c>=d
+
+Segment 607, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a * 56;
+	b := b - 73;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 36;
+	c := c * 12
+end
+until c>d
+
+Segment 608, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 55;
+	a := a * 66;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 76;
+	d := d - 20
+end
+until c>d
+
+Segment 609, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 10;
+	a := a * 10;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 18;
+	d := d - 85
+end
+until c>=d
+
+Segment 610, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 15;
+	a := a * 75;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 29;
+	d := d - 91
+end
+until c>d
+
+Segment 611, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 60;
+	a := a * 7;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c * 41;
+	d := d - 98
+end
+until c>d
+
+Segment 612, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 34;
+	a := a * 74;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 86;
+	d := d + 42
+end
+until c>=d
+
+Segment 613, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 43;
+	a := a * 48;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 60;
+	d := d + 26
+end
+until c>d
+
+Segment 614, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 2;
+	a := a * 25;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 14;
+	d := d + 14
+end
+until c>d
+
+Segment 615, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 12;
+	a := a * 21;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 87;
+	d := d + 93
+end
+until c>d
+
+Segment 616, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 91;
+	b := b + 94;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 46;
+	c := c * 6
+end
+until c>=d
+
+Segment 617, complexity	n*log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 4;
+	b := b + 26;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 63;
+	c := c * 16
+end
+until c>=d
+
+Segment 618, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 87;
+	b := b + 17;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 68;
+	c := c * 42
+end
+until c>d
+
+Segment 619, complexity	n
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 31;
+	b := b + 6;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 76;
+	c := c * 3
+end
+until c>d
+
+Segment 620, complexity	n^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 66;
+	b := b + 44;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d + 66;
+	c := c + 29
+end
+until c>d
+
+Segment 621, complexity	n!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 82;
+	b := b + 98;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d + 66;
+	c := c + 7
+end
+until c>d
+
+Segment 622, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 18;
+	b := b + 4;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d + 45;
+	c := c + 9
+end
+until c>d
+
+Segment 623, complexity	97^n
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 26;
+	b := b + 93;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d + 79;
+	c := c + 96
+end
+until c>=d
+
+Segment 624, complexity	n^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 32;
+	a := a + 63;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 4;
+	d := d + 87
+end
+until c>d
+
+Segment 625, complexity	n!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 27;
+	a := a + 9;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 67;
+	d := d + 3
+end
+until c>=d
+
+Segment 626, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 65;
+	a := a + 7;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 51;
+	d := d + 38
+end
+until c>d
+
+Segment 627, complexity	97^n
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 18;
+	a := a + 47;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 95;
+	d := d + 61
+end
+until c>=d
+
+Segment 628, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 87;
+	a := a + 75;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 55;
+	d := d / 3
+end
+until c>=d
+
+Segment 629, complexity	n*log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 91;
+	a := a + 42;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 5;
+	d := d / 71
+end
+until c>=d
+
+Segment 630, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 69;
+	a := a + 83;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 53;
+	d := d / 81
+end
+until c>d
+
+Segment 631, complexity	n
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b + 68;
+	a := a + 29;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 41;
+	d := d / 84
+end
+until c>d
+
+Segment 632, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 49;
+	b := b / 87;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d + 47;
+	c := c + 18
+end
+until c>=d
+
+Segment 633, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 3;
+	b := b / 71;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d + 99;
+	c := c + 90
+end
+until c>=d
+
+Segment 634, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 18;
+	b := b / 56;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d + 75;
+	c := c + 40
+end
+until c>d
+
+Segment 635, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 99;
+	b := b / 54;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d + 62;
+	c := c + 90
+end
+until c>d
+
+Segment 636, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 14;
+	b := b / 54;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 72;
+	c := c + 46
+end
+until c>d
+
+Segment 637, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 32;
+	b := b / 70;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 49;
+	c := c + 16
+end
+until c>d
+
+Segment 638, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 26;
+	b := b / 82;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 13;
+	c := c + 94
+end
+until c>d
+
+Segment 639, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 62;
+	b := b / 12;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 11;
+	c := c + 40
+end
+until c>=d
+
+Segment 640, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 59;
+	a := a + 74;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 71;
+	d := d / 52
+end
+until c>=d
+
+Segment 641, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 53;
+	a := a + 34;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 41;
+	d := d / 28
+end
+until c>d
+
+Segment 642, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 36;
+	a := a + 2;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 16;
+	d := d / 65
+end
+until c>d
+
+Segment 643, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 20;
+	a := a + 27;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 23;
+	d := d / 69
+end
+until c>=d
+
+Segment 644, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 40;
+	a := a + 15;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 54;
+	d := d - 5
+end
+until c>d
+
+Segment 645, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 28;
+	a := a + 40;
+	x := x * 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 34;
+	d := d - 92
+end
+until c>d
+
+Segment 646, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 55;
+	a := a + 16;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 6;
+	d := d - 6
+end
+until c>=d
+
+Segment 647, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b / 12;
+	a := a + 81;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 1;
+	d := d - 5
+end
+until c>d
+
+Segment 648, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 94;
+	b := b - 80;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 21;
+	c := c + 92
+end
+until c>=d
+
+Segment 649, complexity	n*log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 75;
+	b := b - 32;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 100;
+	c := c + 69
+end
+until c>=d
+
+Segment 650, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 3;
+	b := b - 83;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 33;
+	c := c + 91
+end
+until c>=d
+
+Segment 651, complexity	n
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 39;
+	b := b - 18;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d / 83;
+	c := c + 2
+end
+until c>=d
+
+Segment 652, complexity	n^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 46;
+	b := b - 63;
+	x := x + 97 * z
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 1;
+	c := c + 98
+end
+until c>=d
+
+Segment 653, complexity	n!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 69;
+	b := b - 18;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 58;
+	c := c + 31
+end
+until c>=d
+
+Segment 654, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 44;
+	b := b - 13;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 85;
+	c := c + 40
+end
+until c>d
+
+Segment 655, complexity	97^n
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	a := a + 90;
+	b := b - 11;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 38;
+	c := c + 92
+end
+until c>=d
+
+Segment 656, complexity	n^2
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 98;
+	a := a + 51;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 57;
+	d := d - 84
+end
+until c>d
+
+Segment 657, complexity	n!
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 16;
+	a := a + 22;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 26;
+	d := d - 77
+end
+until c>d
+
+Segment 658, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 14;
+	a := a + 37;
+	x := x + 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 16;
+	d := d - 22
+end
+until c>=d
+
+Segment 659, complexity	97^n
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 89;
+	a := a + 57;
+	x := x * 97
+end
+until a>=b;
+d := x;
+c := 1;
+repeat
+begin
+	c := c + 46;
+	d := d - 21
+end
+until c>d
+
+Segment 660, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 22;
+	a := a + 73;
+	x := x + 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c - 91;
+	d := d / 25
+end
+
+Segment 661, complexity	n*log(n)
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 87;
+	a := a + 3;
+	x := x * 97 * z
+end
+until a>b;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c - 66;
+	d := d / 64
+end
+
+Segment 662, complexity	n
+x := 0;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 70;
+	a := a + 37;
+	x := x + 97
+end
+until a>b;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c - 40;
+	d := d / 96
+end
+
+Segment 663, complexity	n
+x := 1;
+a := 1;
+b := n;
+repeat
+begin
+	b := b - 30;
+	a := a + 22;
+	x := x * 97
+end
+until a>b;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c - 33;
+	d := d / 28
+end
+
+Segment 664, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 9;
+	b := b / 10;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 64;
+	c := c + 90
+end
+until c>d
+
+Segment 665, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 96;
+	b := b / 61;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 10;
+	c := c + 87
+end
+until c>d
+
+Segment 666, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 28;
+	b := b / 92;
+	x := x + 97
+end;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 18;
+	c := c + 97
+end
+until c>=d
+
+Segment 667, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 41;
+	b := b / 76;
+	x := x * 97
+end;
+d := x;
+c := 1;
+repeat
+begin
+	d := d - 66;
+	c := c + 93
+end
+until c>d
+
+Segment 668, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a - 36;
+	b := b / 5;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 20;
+	c := c - 57
+end
+
+Segment 669, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 66;
+	b := b / 85;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d / 87;
+	c := c - 75
+end
+
+Segment 670, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 60;
+	b := b / 72;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 35;
+	c := c - 80
+end
+
+Segment 671, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a - 86;
+	b := b / 61;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d / 46;
+	c := c - 54
+end
+
+Segment 672, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 55;
+	a := a - 42;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c - 60;
+	d := d / 20
+end
+
+Segment 673, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 24;
+	a := a - 95;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c - 92;
+	d := d / 88
+end
+
+Segment 674, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 73;
+	a := a - 76;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c - 30;
+	d := d / 69
+end
+
+Segment 675, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 95;
+	a := a - 94;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c - 43;
+	d := d / 68
+end
+
+Segment 676, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 11;
+	a := a - 89;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c - 23;
+	d := d - 27
+end
+
+Segment 677, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 5;
+	a := a - 5;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c - 61;
+	d := d - 37
+end
+
+Segment 678, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 87;
+	a := a - 7;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c - 54;
+	d := d - 78
+end
+
+Segment 679, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 93;
+	a := a - 12;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c - 63;
+	d := d - 65
+end
+
+Segment 680, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a - 45;
+	b := b - 14;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 59;
+	c := c - 37
+end
+
+Segment 681, complexity	n*log(n)
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 64;
+	b := b - 6;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d / 45;
+	c := c - 52
+end
+
+Segment 682, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 76;
+	b := b - 18;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 38;
+	c := c - 11
+end
+
+Segment 683, complexity	n
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 52;
+	b := b - 87;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 37;
+	c := c - 31
+end
+
+Segment 684, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a - 52;
+	b := b - 27;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c * 11;
+	d := d + 4
+end
+
+Segment 685, complexity	n*log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a - 23;
+	b := b - 35;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 8;
+	d := d + 79
+end
+
+Segment 686, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 61;
+	b := b - 84;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 13;
+	d := d + 37
+end
+
+Segment 687, complexity	n
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a - 97;
+	b := b - 81;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 75;
+	d := d + 7
+end
+
+Segment 688, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 76;
+	b := b + 99;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c - 31;
+	d := d - 18
+end
+
+Segment 689, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 3;
+	b := b + 82;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c - 72;
+	d := d - 80
+end
+
+Segment 690, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 50;
+	b := b + 77;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c - 19;
+	d := d - 11
+end
+
+Segment 691, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 32;
+	b := b + 21;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c - 31;
+	d := d - 95
+end
+
+Segment 692, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 81;
+	b := b + 69;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d + 96;
+	c := c * 68
+end
+
+Segment 693, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 23;
+	b := b + 61;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d + 99;
+	c := c * 51
+end
+
+Segment 694, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 65;
+	b := b + 49;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d + 79;
+	c := c * 95
+end
+
+Segment 695, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 84;
+	b := b + 5;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d + 68;
+	c := c * 6
+end
+
+Segment 696, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b + 24;
+	a := a * 39;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c * 15;
+	d := d + 94
+end
+
+Segment 697, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b + 56;
+	a := a * 39;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 79;
+	d := d + 10
+end
+
+Segment 698, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b + 10;
+	a := a * 53;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 31;
+	d := d + 80
+end
+
+Segment 699, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b + 62;
+	a := a * 79;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c * 6;
+	d := d + 96
+end
+
+Segment 700, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b + 19;
+	a := a * 7;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 28;
+	d := d / 57
+end
+
+Segment 701, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b + 83;
+	a := a * 95;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 62;
+	d := d / 4
+end
+
+Segment 702, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b + 71;
+	a := a * 57;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c * 58;
+	d := d / 23
+end
+
+Segment 703, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b + 81;
+	a := a * 37;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 14;
+	d := d / 66
+end
+
+Segment 704, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 65;
+	b := b / 5;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d + 34;
+	c := c * 38
+end
+
+Segment 705, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 77;
+	b := b / 64;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d + 59;
+	c := c * 28
+end
+
+Segment 706, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 39;
+	b := b / 29;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d + 34;
+	c := c * 54
+end
+
+Segment 707, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 14;
+	b := b / 41;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d + 68;
+	c := c * 32
+end
+
+Segment 708, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 80;
+	b := b / 31;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 18;
+	c := c * 35
+end
+
+Segment 709, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 18;
+	b := b / 78;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 88;
+	c := c * 74
+end
+
+Segment 710, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 8;
+	b := b / 92;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 94;
+	c := c * 12
+end
+
+Segment 711, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 55;
+	b := b / 58;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d / 80;
+	c := c * 86
+end
+
+Segment 712, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 70;
+	a := a * 95;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c * 51;
+	d := d / 43
+end
+
+Segment 713, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 13;
+	a := a * 17;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c * 54;
+	d := d / 43
+end
+
+Segment 714, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 86;
+	a := a * 96;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c * 99;
+	d := d / 14
+end
+
+Segment 715, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 15;
+	a := a * 62;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c * 85;
+	d := d / 1
+end
+
+Segment 716, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 10;
+	a := a * 14;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d * 79;
+	c := c * 15
+end
+
+Segment 717, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 69;
+	a := a * 21;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d * 80;
+	c := c * 88
+end
+
+Segment 718, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 17;
+	a := a * 34;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d * 30;
+	c := c * 69
+end
+
+Segment 719, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 80;
+	a := a * 58;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d * 25;
+	c := c * 56
+end
+
+Segment 720, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b * 31;
+	a := a * 35;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d / 37;
+	c := c * 41
+end
+
+Segment 721, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b * 58;
+	a := a * 45;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d / 31;
+	c := c * 73
+end
+
+Segment 722, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b * 16;
+	a := a * 9;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 60;
+	c := c * 88
+end
+
+Segment 723, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b * 2;
+	a := a * 4;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 80;
+	c := c * 86
+end
+
+Segment 724, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b * 33;
+	a := a * 61;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c * 47;
+	d := d - 7
+end
+
+Segment 725, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b * 54;
+	a := a * 33;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c * 95;
+	d := d - 62
+end
+
+Segment 726, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b * 44;
+	a := a * 38;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 78;
+	d := d - 61
+end
+
+Segment 727, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b * 9;
+	a := a * 56;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c * 27;
+	d := d - 72
+end
+
+Segment 728, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 67;
+	b := b - 17;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d * 85;
+	c := c * 9
+end
+
+Segment 729, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 48;
+	b := b - 64;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d * 24;
+	c := c * 84
+end
+
+Segment 730, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 87;
+	b := b - 25;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d * 51;
+	c := c * 83
+end
+
+Segment 731, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 51;
+	b := b - 64;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d * 29;
+	c := c * 38
+end
+
+Segment 732, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 56;
+	b := b - 76;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d - 28;
+	c := c * 31
+end
+
+Segment 733, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a * 54;
+	b := b - 87;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d - 30;
+	c := c * 26
+end
+
+Segment 734, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 26;
+	b := b - 70;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d - 65;
+	c := c * 70
+end
+
+Segment 735, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a * 9;
+	b := b - 77;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d - 90;
+	c := c * 18
+end
+
+Segment 736, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 56;
+	a := a * 34;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 20;
+	d := d - 24
+end
+
+Segment 737, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 67;
+	a := a * 46;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 3;
+	d := d - 50
+end
+
+Segment 738, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 87;
+	a := a * 71;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c * 78;
+	d := d - 92
+end
+
+Segment 739, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 52;
+	a := a * 54;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c * 17;
+	d := d - 3
+end
+
+Segment 740, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 66;
+	a := a * 3;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 12;
+	d := d / 40
+end
+
+Segment 741, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 58;
+	a := a * 73;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 2;
+	d := d / 46
+end
+
+Segment 742, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 24;
+	a := a * 47;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 73;
+	d := d / 98
+end
+
+Segment 743, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b - 4;
+	a := a * 72;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 87;
+	d := d / 82
+end
+
+Segment 744, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 45;
+	b := b / 61;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d - 65;
+	c := c * 100
+end
+
+Segment 745, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 82;
+	b := b / 79;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d - 10;
+	c := c * 61
+end
+
+Segment 746, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 85;
+	b := b / 94;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d - 87;
+	c := c * 35
+end
+
+Segment 747, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 61;
+	b := b / 87;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d - 2;
+	c := c * 50
+end
+
+Segment 748, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 90;
+	b := b / 82;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d / 26;
+	c := c + 14
+end
+
+Segment 749, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 46;
+	b := b / 94;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 79;
+	c := c + 65
+end
+
+Segment 750, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 35;
+	b := b / 37;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d / 62;
+	c := c + 70
+end
+
+Segment 751, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 76;
+	b := b / 100;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d / 81;
+	c := c + 32
+end
+
+Segment 752, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 91;
+	a := a + 27;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 9;
+	d := d / 72
+end
+
+Segment 753, complexity	log(n)*log(log(n))
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 88;
+	a := a + 28;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 4;
+	d := d / 47
+end
+
+Segment 754, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 58;
+	a := a + 49;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 56;
+	d := d / 69
+end
+
+Segment 755, complexity	log(n)
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 90;
+	a := a + 3;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 31;
+	d := d / 47
+end
+
+Segment 756, complexity	log(n)^2
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b / 57;
+	a := a + 75;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 50;
+	d := d - 73
+end
+
+Segment 757, complexity	log(n)!
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 26;
+	a := a + 43;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 89;
+	d := d - 45
+end
+
+Segment 758, complexity	log(n)
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 58;
+	a := a + 60;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 86;
+	d := d - 99
+end
+
+Segment 759, complexity	97^log(n)
+x := 1;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	b := b / 83;
+	a := a + 43;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 78;
+	d := d - 23
+end
+
+Segment 760, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 81;
+	b := b - 28;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d / 15;
+	c := c + 71
+end
+
+Segment 761, complexity	n*log(n)
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 99;
+	b := b - 71;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d / 94;
+	c := c + 64
+end
+
+Segment 762, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 24;
+	b := b - 56;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 95;
+	c := c + 41
+end
+
+Segment 763, complexity	n
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 80;
+	b := b - 3;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d / 68;
+	c := c + 27
+end
+
+Segment 764, complexity	n^2
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 6;
+	b := b - 10;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d - 66;
+	c := c + 47
+end
+
+Segment 765, complexity	n!
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 9;
+	b := b - 19;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	d := d - 94;
+	c := c + 30
+end
+
+Segment 766, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<=b do
+begin;
+	a := a + 39;
+	b := b - 52;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d - 89;
+	c := c + 52
+end
+
+Segment 767, complexity	97^n
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	a := a + 26;
+	b := b - 95;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	d := d - 61;
+	c := c + 72
+end
+
+Segment 768, complexity	n^2
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 76;
+	a := a + 46;
+	x := x + 97 * z
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 41;
+	d := d - 36
+end
+
+Segment 769, complexity	n!
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 30;
+	a := a + 36;
+	x := x * 97 * z
+end;
+d := x;
+c := 1;
+while c<d do
+begin;
+	c := c + 73;
+	d := d - 82
+end
+
+Segment 770, complexity	n
+x := 0;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 41;
+	a := a + 99;
+	x := x + 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 62;
+	d := d - 2
+end
+
+Segment 771, complexity	97^n
+x := 1;
+a := 1;
+b := n;
+while a<b do
+begin;
+	b := b - 12;
+	a := a + 30;
+	x := x * 97
+end;
+d := x;
+c := 1;
+while c<=d do
+begin;
+	c := c + 75;
+	d := d - 13
+end
+

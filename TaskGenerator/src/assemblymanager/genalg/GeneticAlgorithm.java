@@ -62,7 +62,7 @@ public class GeneticAlgorithm extends Algorithm {
                 Stage stage = new InitStage(population, maxLoopNumber);
                 population = stage.run();
                 stage = new ExpansionStage(population, maxLoopNumber);
-//                population = stage.run();
+                population = stage.run();
 
                 return population;
             };
